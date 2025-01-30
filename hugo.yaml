@@ -92,10 +92,12 @@ params:
                   url: https://fullremote.it/
                   name: fullremote.it
             partners:
-                - logo:
-                  url:
-                    # 👇 This name is used as the alt text for the logo
-                  name:
+                - logo: partners/theRedCode_logo.png
+                  url: https://theredcode.it
+                  name: TheRedCode.it
+                - logo: partners/fullremote.jpeg
+                  url: https://fullremote.it/
+                  name: fullremote.it
             # 👇 List of Sessionize speaker IDs of speakers that organize the event.
             organizers: LaLocandaDelTech
             # 👇 List of Sessionize session IDs of highlight sessions.
