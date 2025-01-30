@@ -88,6 +88,9 @@ params:
                 - logo: sponsors/theRedCode_logo.png
                   url: https://theredcode.it
                   name: TheRedCode.it
+                - logo: sponsors/fullremote.jpeg
+                  url: https://fullremote.it/
+                  name: fullremote.it
             partners:
                 - logo:
                   url:
