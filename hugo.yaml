@@ -1,15 +1,101 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
-
+baseURL: https://lalocandadeltech.it
+languageCode: it
+title: Locanda Tech Tales
+defaultContentLanguage: it
 theme: event
 sectionPagesMenu: main
+languages:
+    en:
+        languageName: EN
+        disabled: false
+        params:
+            themes:
+                event:
+                    slogan: A Hugo Theme for Conferences
+                    description: |
+                        This is a placeholder for your event description. You can customize it,
+                        together with all other settings, in your Hugo configuration file.
+                        We hope you enjoy using this theme! 🎉
+                    directions: |
+                        Directions for getting to the location using public transportation. 
+                        Customize this placeholder text in your Hugo configuration file or remove it if not needed.
+                    # 👇 This field provides an introduction or overview about the event or organization.
+                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
+                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
+                    aboutUs: |
+                        More information about the event will be added soon. Stay tuned! 🎉
+    it:
+        languageName: It
+        disabled: false
+        params:
+            themes:
+                event:
+                    slogan: La Locanda del Tech arriva con il suo primo evento online, "Locanda Tech Tales"!
+                    description: |
+                        Il 17 marzo 2025 La Locanda Del Tech ospiterà il suo primo evento online: "Locanda Tech Tales" 
+                         vedrà sul palco virtuale 8 speaker di eccezione, che porteranno la propria esperienza nel settore
+                         #tech.
+                    directions: |
+                        Online, StreamYard (link in arrivo!)
+                    aboutUs: |
+                        Una banda di matti, con tanto amore per la community e la condivisione.
+
 params:
     themes:
         event:
-            # 👇 Set the name of your event.
-            title: My Event
-            # 👇 Fetch the ID of your event's API endpoint from
-            # 👇 https://sessionize.com/app/organizer/schedule/api/0
-            # 👇 and enter it here.
             sessionizeId: 67poir7q
+            title: La Locanda del Tech
+            shortTitle:
+            startDate: 2025-03-17
+            endDate: 2025-03-17
+            location: Online
+            address:
+                - StreamYard
+            map:
+                embeddableMapUrl:
+                # 👇 Enter a URL of a larger map representation (not required for Google Maps).
+                viewLargerMapUrl:
+            callToAction:
+                eventbrite:
+                    # 👇 Get your Eventbrite event ID from the URL of your event page
+                    # 👇 and enter it here.
+                    eventId:
+                other:
+                    # 👇 Enter the URL of your ticket shop here.
+                    url:
+                enableBanner: true
+            socialLinks:
+                xUrl:
+                facebookUrl:
+                linkedinUrl: https://www.linkedin.com/company/la-locanda-del-tech/posts/?feedView=all
+                youTubeUrl: https://www.youtube.com/@lalocandadeltech
+            favicon: favicon.ico
+            images:
+                logo: logos/locanda_logo.png
+                titleBackground: images/la_locanda_2_original.jpg
+                location:
+            sponsors:
+                - logo:
+                  url:
+                    # 👇 This name is used as the alt text for the logo
+                  name:
+            partners:
+                - logo:
+                  url:
+                    # 👇 This name is used as the alt text for the logo
+                  name:
+            # 👇 List of Sessionize speaker IDs of speakers that organize the event.
+            organizers: LaLocandaDelTech
+            # 👇 List of Sessionize session IDs of highlight sessions.
+            featuredSessions:
+            colors:
+                primaryLighter: '#f9b529'
+                primary: '#ce9f00'
+                primaryDarker: '#dfa504'
+                primaryDarkest: '#956500'
+                secondary: 'black'
+                secondaryDarker: '#dfa504'
+                track: '#015a57'
+                shadow: '#a6afc366'
+            # 👇 Name of the category in Sessionize that is used to group sessions.
+            trackCategoryTitle: Track
