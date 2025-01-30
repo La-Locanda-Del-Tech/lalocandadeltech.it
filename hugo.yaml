@@ -32,13 +32,23 @@ languages:
                 event:
                     slogan: La Locanda del Tech arriva con il suo primo evento online, "Locanda Tech Tales"!
                     description: |
-                        Il 17 marzo 2025 La Locanda Del Tech ospiterà il suo primo evento online: "Locanda Tech Tales" 
-                         vedrà sul palco virtuale 8 speaker di eccezione, che porteranno la propria esperienza nel settore
-                         #tech.
+                        II primo evento della Locanda del Tech: una intera giornata
+                        di talk, online e live su Youtube, Twitch e Linkedin! Ci vediamo il 17 marzo 2025 online 🔥
                     directions: |
                         Online, StreamYard (link in arrivo!)
                     aboutUs: |
-                        Una banda di matti, con tanto amore per la community e la condivisione.
+                        Lo Locanda del Tech nasce ad inizio 2023 come canale
+                        YouTube e Twitch, da un'idea di Guido Penta.
+                        L'obiettivo è quello di portare dibattiti, idee, contributi e
+                        riflessioni nel mondo IT dal punto di visto di uno persona
+                        "non tecnica", dibattendo di temi come crescita personale e
+                        professionale, lavoro, carriera, senza dimenticare le tante
+                        aziende che hanno partecipato olle live e le storie di
+                        professionisti e professioniste che hanno donato il loro
+                        tempo al canale.
+                        Do Agosto 2023 La Locando è diventato anche un gruppo
+                        Telegram, che al momento conto quasi duemila persone
+                        iscritte.
 
 params:
     themes:
@@ -51,10 +61,10 @@ params:
             location: Online
             address:
                 - StreamYard
-            map:
-                embeddableMapUrl:
-                # 👇 Enter a URL of a larger map representation (not required for Google Maps).
-                viewLargerMapUrl:
+#            map:
+#                embeddableMapUrl:
+#                 👇 Enter a URL of a larger map representation (not required for Google Maps).
+#                viewLargerMapUrl:
             callToAction:
                 eventbrite:
                     # 👇 Get your Eventbrite event ID from the URL of your event page
@@ -75,10 +85,9 @@ params:
                 titleBackground: images/la_locanda_2_original.jpg
                 location:
             sponsors:
-                - logo:
-                  url:
-                    # 👇 This name is used as the alt text for the logo
-                  name:
+                - logo: sponsors/theRedCode_logo.png
+                  url: https://theredcode.it
+                  name: TheRedCode.it
             partners:
                 - logo:
                   url:
