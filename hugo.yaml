@@ -81,16 +81,13 @@ params:
                 youTubeUrl: https://www.youtube.com/@lalocandadeltech
             favicon: favicon.ico
             images:
-                logo: logos/locanda_logo.png
-                titleBackground: images/la_locanda_2_original.jpg
+                logo: logos/Logo-la locanda-del-tech.svg
+                titleBackground: logos/la_locanda_2_original.jpg
                 location:
             sponsors:
-                - logo: sponsors/theRedCode_logo.png
-                  url: https://theredcode.it
-                  name: TheRedCode.it
-                - logo: sponsors/fullremote.jpeg
-                  url: https://fullremote.it/
-                  name: fullremote.it
+#                - logo: sponsors/theRedCode_logo.png
+#                  url: https://theredcode.it
+#                  name: TheRedCode.it
             partners:
                 - logo: partners/theRedCode_logo.png
                   url: https://theredcode.it
