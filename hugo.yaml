@@ -110,13 +110,13 @@ params:
 #                  url: https://theredcode.it
 #                  name: TheRedCode.it
             partners:
-                - logo: "partners/logo - background - rounded - flat background.4d555975.svg"
+                - logo: "partners/logo - background - rounded - flat background.4d555975.webp"
                   url: https://schroedinger-hat.org/
                   name: Schrödinger Hat
-                - logo: partners/theRedCode_logo.png
+                - logo: partners/theRedCode_logo.webp
                   url: https://theredcode.it
                   name: TheRedCode.it
-                - logo: partners/fullremote.jpeg
+                - logo: partners/fullremote.webp
                   url: https://fullremote.it/
                   name: fullremote.it
             # 👇 List of Sessionize speaker IDs of speakers that organize the event.
