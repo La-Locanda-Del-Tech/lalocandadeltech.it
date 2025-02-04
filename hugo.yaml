@@ -102,8 +102,8 @@ params:
                 telegramUrl: https://t.me/+mqQJQ9BqKOViMmVk
             favicon: favicon_new.ico
             images:
-                logo: logos/Logo-la locanda-del-tech.svg
-                titleBackground: logos/la_locanda_2_original.jpg
+                logo: logos/Logo-la locanda-del-tech.webp
+                titleBackground: logos/la_locanda_2_original.webp
                 location:
             sponsors:
 #                - logo: sponsors/theRedCode_logo.png
