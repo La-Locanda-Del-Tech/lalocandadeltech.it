@@ -10,6 +10,8 @@
         )
     }}
 
+    {{- partial "cta/banner.html" }}
+
     {{ $eventStartDate := or .Site.Params.themes.event.startDate now | time }}
     {{ $eventEndDate := or .Site.Params.themes.event.endDate now | time }}
     {{ $dayInSeconds := 86400 }}

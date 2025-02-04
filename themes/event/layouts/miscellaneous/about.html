@@ -13,14 +13,14 @@
         </div>
         {{ end }}
 
-        <br/>        <br/>
-        <span>
+        <div class="section-container">
+            <h2>
         <a href="https://sessionize.com/locanda-tech-tales">
             {{- T "cta_banner.message2" }}
         </a>
-        </span>
+        </h2>
 
-
+        </div>
         {{- range (where .Site.Pages "Section" "speakers") }}
         {{- if in $organizerIds .Params.speakerId }}
         <!-- Check if the speaker ID is in the organizers list -->

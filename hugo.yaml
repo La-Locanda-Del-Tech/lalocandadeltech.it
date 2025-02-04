@@ -64,8 +64,9 @@ languages:
                         aziende che hanno partecipato olle live e le storie di
                         professionisti e professioniste che hanno donato il loro
                         tempo al canale.
-                        Da Agosto 2023 La Locando è diventato anche un gruppo
-                        Telegram, che al momento conto quasi duemila persone
+                        
+                        Da Agosto 2023 La Locanda del Tech è diventato anche un gruppo
+                        Telegram, che al momento conta 2000+ persone
                         iscritte.
 
 params:
@@ -99,7 +100,7 @@ params:
                 youTubeUrl: https://www.youtube.com/@lalocandadeltech
                 twitchUrl: https://www.twitch.tv/lalocandadeltech
                 telegramUrl: https://t.me/+mqQJQ9BqKOViMmVk
-            favicon: favicon_new    .ico
+            favicon: favicon_new.ico
             images:
                 logo: logos/Logo-la locanda-del-tech.svg
                 titleBackground: logos/la_locanda_2_original.jpg
