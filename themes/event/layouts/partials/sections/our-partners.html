@@ -9,12 +9,9 @@
 {{ if gt (len $validPartners) 0 }}
 <div class="section-container">
     <section class="section section--short our-partners">
-        <h1 class="heading heading--highlighted heading--centered">
+        <h1 class="heading heading--2 heading--centered">
             {{ T "partners_section.heading" }}
         </h1>
-        <h2 class="heading heading--2 heading--centered">
-            {{ T "partners_section.subheading" }}
-        </h2>
         <ul class="our-partners__list">
             {{ range $partner := $validPartners }}
             <li class="our-partners__list-item">

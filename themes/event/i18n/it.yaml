@@ -50,7 +50,7 @@ featured_sessions_section.action: Tutte le sessioni
 sponsors_section.heading: I nostri Sponsors
 sponsors_section.subheading: Tutto questo è grazie ai nostri sponsors
 partners_section.heading: I nostri Partners
-partners_section.subheading: Un grande applauso ai nostri partners
+partners_section.subheading: Grazie a
 
 event_highlights_section.number_of_speakers:
     one: '{{ . }} Speaker'

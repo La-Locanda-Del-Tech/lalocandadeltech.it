@@ -4,7 +4,7 @@
     justify-content: center;
 
     height: 2.8125rem;
-    background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-darker) 100%);
+    background-color: black;
 }
 
 .cta-banner span {
@@ -15,5 +15,5 @@
 }
 
 .cta-banner span a{
-    color: black;
+    color: white;
 }
