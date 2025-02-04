@@ -27,6 +27,24 @@ languages:
     it:
         languageName: It
         disabled: false
+#        menus:
+#            main:
+#                - identifier: about
+#                  name: Chi siamo
+#                  pageRef: /about
+#                  weight: 10
+##                - identifier: agenda
+##                  pageRef: /agenda
+#                  name: Agenda
+#                  weight: 10
+#                - identifier: sessioni
+#                  pageRef: /sessioni
+#                  name: Sessioni
+#                  weight: 20
+#                - identifier: codice_di_condotta
+#                  pageRef: /codice-di-condotta
+#                  name: Codice di condotta
+#                  weight: 40
         params:
             themes:
                 event:
@@ -37,7 +55,7 @@ languages:
                     directions: |
                         Online, StreamYard (link in arrivo!)
                     aboutUs: |
-                        Lo Locanda del Tech nasce ad inizio 2023 come canale
+                        La Locanda del Tech nasce ad inizio 2023 come canale
                         YouTube e Twitch, da un'idea di Guido Penta.
                         L'obiettivo è quello di portare dibattiti, idee, contributi e
                         riflessioni nel mondo IT dal punto di visto di uno persona
@@ -46,7 +64,7 @@ languages:
                         aziende che hanno partecipato olle live e le storie di
                         professionisti e professioniste che hanno donato il loro
                         tempo al canale.
-                        Do Agosto 2023 La Locando è diventato anche un gruppo
+                        Da Agosto 2023 La Locando è diventato anche un gruppo
                         Telegram, che al momento conto quasi duemila persone
                         iscritte.
 
@@ -79,7 +97,9 @@ params:
                 facebookUrl:
                 linkedinUrl: https://www.linkedin.com/company/la-locanda-del-tech/posts/?feedView=all
                 youTubeUrl: https://www.youtube.com/@lalocandadeltech
-            favicon: favicon.ico
+                twitchUrl: https://www.twitch.tv/lalocandadeltech
+                telegramUrl: https://t.me/+mqQJQ9BqKOViMmVk
+            favicon: favicon_new    .ico
             images:
                 logo: logos/Logo-la locanda-del-tech.svg
                 titleBackground: logos/la_locanda_2_original.jpg
@@ -89,6 +109,9 @@ params:
 #                  url: https://theredcode.it
 #                  name: TheRedCode.it
             partners:
+                - logo: "partners/logo - background - rounded - flat background.4d555975.svg"
+                  url: https://schroedinger-hat.org/
+                  name: Schrödinger Hat
                 - logo: partners/theRedCode_logo.png
                   url: https://theredcode.it
                   name: TheRedCode.it
