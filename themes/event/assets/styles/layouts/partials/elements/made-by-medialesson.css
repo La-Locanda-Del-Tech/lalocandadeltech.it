@@ -1,0 +1,18 @@
+.made-by-medialesson {
+    font-weight: 400;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4375rem;
+    text-decoration: none;
+}
+
+.made-by-medialesson__heart {
+    height: 0.625rem;
+    width: 0.625rem;
+}
+
+.made-by-medialesson__logo-name {
+    height: 1.125rem;
+    width: 7.757rem;
+}

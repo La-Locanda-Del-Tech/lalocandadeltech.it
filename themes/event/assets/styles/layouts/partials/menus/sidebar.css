@@ -1,0 +1,50 @@
+.sidebar-menu {
+    all: unset;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.sidebar-menu__item {
+    all: unset;
+    position: relative;
+    margin: 0;
+}
+
+.sidebar-menu__item:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+.sidebar-menu__link {
+    all: unset;
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.125rem;
+    position: relative;
+    transition: padding 0.3s ease;
+    z-index: 1; /* Ensure the link content is above the pseudo-element */
+}
+
+.sidebar-menu__link:hover,
+.sidebar-menu__link:focus,
+.sidebar-menu__link:active {
+    padding-left: 0.5rem;
+}
+
+.sidebar-menu__link:hover::before,
+.sidebar-menu__link:focus::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -4px;
+    right: -4px;
+    bottom: -2px;
+    border: 2px solid white;
+    z-index: 0; /* Ensure it goes below the link */
+}

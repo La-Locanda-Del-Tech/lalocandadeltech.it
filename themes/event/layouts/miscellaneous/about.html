@@ -1,0 +1,73 @@
+{{ define "main" }}
+{{ $event := .Site.Params.themes.event }}
+{{- $organizers := slice }}
+{{- $organizerIds := .Site.Params.themes.event.organizers }}
+
+
+<div class="section-container">
+    <section class="section about">
+        <h1 class="heading heading--1">{{- T "about_page.heading" }}</h1>
+        {{ with $event.aboutUs }}
+        <div class="markdown about__text">
+            {{ . | markdownify }}
+        </div>
+        {{ end }}
+
+        <br/>        <br/>
+        <span>
+        <a href="https://sessionize.com/locanda-tech-tales">
+            {{- T "cta_banner.message2" }}
+        </a>
+        </span>
+
+
+        {{- range (where .Site.Pages "Section" "speakers") }}
+        {{- if in $organizerIds .Params.speakerId }}
+        <!-- Check if the speaker ID is in the organizers list -->
+        {{- $organizers = $organizers | append ( dict
+        "profileUrl" .RelPermalink
+        "avatarResource" (.Resources.GetMatch "avatar.*")
+        "name" .Title
+        "speakerId" .Params.speakerId
+        "description" .Params.tagLine
+        "linkedinUrl" .Params.linkedinUrl
+        "xUrl" .Params.xUrl
+        "companyUrl" .Params.company
+        )
+        }}
+        {{- end }}
+        {{- end }}
+
+        {{ if gt (len $organizers) 0 }}
+        <h2 class="heading heading--2">{{- T "about_page.organizers_heading" $event.title }}</h2>
+
+        <menu class="about__organizers-menu">
+            {{- range $organizers }}
+            <li>
+                {{- partial "speaker-card.html" (
+                dict
+                "profileUrl" .profileUrl
+                "avatarResource" .avatarResource
+                "name" .name
+                "description" .description
+                "linkedinUrl" .linkedinUrl
+                "xUrl" .xUrl
+                "companyUrl" .companyUrl
+                )
+                }}
+            </li>
+            {{- end }}
+        </menu>
+        {{ end }}
+    </section>
+</div>
+
+
+{{- partial "sections/cta.html" (
+dict
+"eventbriteId" $event.callToAction.eventbrite.eventId
+"ctaUrl" $event.callToAction.other.url
+)
+}}
+
+{{ end }}

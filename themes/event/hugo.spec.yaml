@@ -1,0 +1,35 @@
+###
+### THIS CONFIGURATION FILE IS FOR TESTING PURPOSES ONLY.
+###
+
+defaultContentLanguage: de
+
+languages:
+    de:
+        menus:
+            secondary:
+                - identifier: about
+                  pageRef: /about
+                  params:
+                      description: Erfahren Sie wer wir sind uns was uns antreibt.
+
+params:
+    themes:
+        event:
+            sessionizeId: test
+            title: test conference
+            shortTitle: testcon
+            startDate: 2045-06-01
+            endDate: 2045-06-03
+            location: Pforzheim, Germany
+            address:
+                - Building
+                - Street
+                - City
+                - Country
+            callToAction:
+                enableBanner: true
+            featuredSessions:
+                - '729576'
+                - '729579'
+            trackCategoryTitle: Track

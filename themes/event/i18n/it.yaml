@@ -1,0 +1,69 @@
+countdown.days: Giorni
+countdown.hours: Ore
+countdown.minutes: Minuti
+countdown.seconds: Secondi
+cta_banner.message: Prendi il tuo biglietto!
+cta_banner.message2: Proponi il tuo talk! C'è tempo fino al 25/02 👆
+cta_button.get_ticket: Registrati!
+cta_section.heading: Se hai voglia di partecipare...
+cta_section.subheading: Registrati oggi!
+cta_section.message: |
+    Non perdere l'occasione di farti ispirare da speaker eccezionali e dalla loro esperienza!
+header_featured_speakers: Speakers
+speakers_page.heading: Speakers
+speakers_page.social_links: '{{ . }} social media links'
+sessions_page.heading: Agenda
+sessions_page.day: Giorno {{ . }}
+sessions_page.heading_day_filter: Data
+sessions_page.heading_track_filter: Track
+sessions_page.speaker: Speaker
+sessions_page.room: Stanza
+sessions_page.read_more: Leggi di più
+sessions_page.heading_no_sessions: Nessuna sessione disponibile al momento
+sessions_page.heading_come_back_soon: Seguici sui nostri canali social
+menu.code_of_conduct: Codice di condotta
+menu.about: Chi siamo
+menu.sessions: Agenda
+menu.speakers: Speakers
+menu.sponsors: Sponsors & Partners
+main_menu.label: Menu
+social-links_list.label: Social media
+secondary_menu.label: Menù secondario
+language_menu.label: Seleziona lingua
+location_page.heading: Location
+location_page.directions_heading: Indicazioni
+location_page.map_frame: Interactive map showing the location of the event
+location_page.map_fullscreen: View larger map of the event location
+sponsors_page.heading_sponsors: Sponsors
+sponsors_page.heading_partners: Partners
+about_page.heading: Chi siamo
+about_page.organizers_heading: 'Il team {{ . }}'
+conference_tracks_section.heading: Tracks
+conference_tracks_section.subheading: Scopri gli argomenti
+conference_tracks_section.action: Scopri l'agenda
+featured_speakers_section.heading: Speakers
+featured_speakers_section.subheading: Incontra gli/le speaker (in continuo aggiornamento!)
+featured_speakers_section.action: Dai un'occhiata agli/lle speaker
+featured_sessions_section.heading: Sessioni
+featured_sessions_section.read_more: Leggi di più
+featured_sessions_section.action: Tutte le sessioni
+sponsors_section.heading: I nostri Sponsors
+sponsors_section.subheading: Tutto questo è grazie ai nostri sponsors
+partners_section.heading: I nostri Partners
+partners_section.subheading: Un grande applauso ai nostri partners
+
+event_highlights_section.number_of_speakers:
+    one: '{{ . }} Speaker'
+    other: '{{ . }} Speakers'
+event_highlights_section.number_of_sessions:
+    one: '{{ . }} Session'
+    other: '{{ . }} Sessioni'
+event_highlights_section.number_of_days:
+    one: '{{ . }} giorno'
+    other: '{{ . }} giorni'
+speaker_page.sessions_by: Sessioni da
+session_page.further_sessions: Altre sessioni
+session_page.further_sessions_from: Altre sessioni da
+carousel.button_next: Successivo
+carousel.button_previous: precedente
+session_categories.label: Categorie

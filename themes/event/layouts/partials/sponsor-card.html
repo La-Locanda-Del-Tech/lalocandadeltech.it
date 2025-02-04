@@ -1,0 +1,16 @@
+{{ $input := . }}
+
+
+<div class="sponsor-card">
+    <a class="sponsor-card__link" href="{{ $input.companyUrl }}">
+        {{ with resources.Get $input.logoResource }}
+            <img
+                class="sponsor-card__logo"
+                src="{{ .RelPermalink }}"
+                alt="{{ $input.name }}"
+                {{ if not (eq .MediaType.SubType "svg") }}
+                    width="{{ .Width }}" height="{{ .Height }}"
+                {{ end }} />
+        {{ end }}
+    </a>
+</div>

@@ -1,0 +1,83 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.375rem;
+    background: var(--color-primary);
+    border: 0.0625rem solid var(--color-primary);
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    transition:
+        background 0.3s ease,
+        border 0.3s ease;
+}
+
+.button:hover {
+    color: white;
+    background: var(--color-primary-darker);
+    border: 0.0625rem solid var(--color-primary-darker);
+}
+
+.button--outlined {
+    background: #ffffff;
+    border: 0.0625rem solid var(--color-primary);
+    color: var(--color-primary);
+    transition:
+        color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.button--outlined:hover {
+    background: #ffffff;
+    color: var(--color-primary);
+    box-shadow: 0 0 0 0.125rem var(--color-primary);
+    border: 0.0625rem solid var(--color-primary);
+}
+
+/*
+ * Applies a scaling effect on hover. Useful when buttons are placed in front
+ * of a background with the primary color.
+ */
+.button--scaled {
+    transition: transform 0.3s ease;
+}
+
+.button--scaled:hover {
+    transform: scale(1.05);
+}
+
+.button--round {
+    border-radius: 50%;
+    padding: 1.25rem;
+    aspect-ratio: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.25rem 1rem 0 #00000040;
+    transition: box-shadow 0.3s ease;
+}
+
+.button--round:hover {
+    box-shadow: 0 0.25rem 1rem 0 var(--color-primary-darker);
+}
+
+.button--disabled,
+.button--disabled:hover {
+    cursor: unset;
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+}

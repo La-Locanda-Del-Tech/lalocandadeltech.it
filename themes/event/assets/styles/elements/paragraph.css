@@ -1,0 +1,18 @@
+.paragraph {
+    all: unset;
+    display: block;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 3.125rem;
+}
+
+.paragraph--embedded {
+    margin-bottom: 0;
+}
+
+.paragraph--highlighted {
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    font-style: italic;
+}

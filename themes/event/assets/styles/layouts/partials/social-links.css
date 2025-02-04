@@ -1,0 +1,22 @@
+.social-links {
+    all: unset;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.375rem;
+}
+
+.social-links__menu-item {
+    flex-grow: 1;
+}
+
+.social-links__link {
+    display: flex;
+    align-items: center;
+    height: 1em;
+    width: 2em;
+}
+
+.social-links__link:focus {
+    outline: 2px solid white;
+}

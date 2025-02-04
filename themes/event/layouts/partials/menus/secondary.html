@@ -1,0 +1,28 @@
+{{ $input := . }}
+
+
+<!-- Label for assistive technologies only -->
+<label id="secondary-menu-label" class="sr-only">{{ T "secondary_menu.label" }}</label>
+<ul class="secondary-menu" aria-labelledby="secondary-menu-label">
+    {{- $firstFour := first 4 $input.menu }}
+    {{- range $index, $item := $firstFour }}
+        <li>
+            {{- $title :=  or (T (printf "menu.%s" $item.Identifier)) $item.Name }}
+            <a
+                class="menu-item__link"
+                href="{{- $item.URL }}"
+                aria-label="{{ $title }}"
+                aria-describedby="secondary-menu-description-{{ $index }}">
+                <h1 class="heading heading--3 heading--embedded">{{- $title }}</h1>
+                <div class="secondary-menu__description">
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-{{ $index }}">
+                        {{- $item.Params.description | markdownify }}
+                    </p>
+                </div>
+                <div class="menu-item__icon">
+                    {{- partial "graphics/vector.html" -}}
+                </div>
+            </a>
+        </li>
+    {{- end }}
+</ul>

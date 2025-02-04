@@ -1,0 +1,73 @@
+{{ $input := . }}
+{{ $pages := slice }}
+{{ $resources := slice }}
+
+{{ $trackCategory := index (where $input.sessionize.categories "title" $input.trackCategoryTitle) 0 }}
+{{ $trackCategoryItems := or $trackCategory.items (slice) }}
+
+{{ $otherCategories := where $input.sessionize.categories "title" "ne" $input.trackCategoryTitle }}
+{{ $otherCategoryItems := slice }}
+{{ range $otherCategories }}
+    {{ $otherCategoryItems = $otherCategoryItems | append .items }}
+{{ end }}
+
+{{ range $input.sessionize.sessions }}
+    {{ $startsAt := time.AsTime "0001-01-01T00:00:00-00:00" }}
+    {{ $date := time.AsTime "0001-01-01T00:00:00-00:00" }}
+    {{ if .startsAt }}
+        {{ $startsAt = .startsAt | time.AsTime }}
+        {{ $date = $startsAt | time.Format "2006-01-02" | time.AsTime }}
+    {{ end }}
+    {{ $isScheduled := not $date.IsZero }}
+    {{ $room := index (where $input.sessionize.rooms "id" .roomId) 0 }}
+    {{ $content := dict "mediaType" "text/markdown" "value" .description }}
+    {{ $speakers := where $input.sessionize.speakers "id" "in" .speakers }}
+    {{ $sessionTrack := index (where $trackCategoryItems "id" "in" .categoryItems) 0 }}
+    {{ $sessionCategories := where $otherCategoryItems "id" "in" .categoryItems }}
+    {{ $sessionCategoryNames := slice }}
+    {{ range $sessionCategories }}
+        {{ $sessionCategoryNames = $sessionCategoryNames | append .name }}
+    {{ end }}
+    {{ $params := dict
+        "sessionId" .id
+        "date" $date
+        "startsAt" $startsAt
+        "room" $room
+        "isServiceSession" .isServiceSession
+        "speakers" $speakers
+        "speakerIds" .speakers
+        "track" $sessionTrack.name
+        "isScheduled" $isScheduled
+        "categories" $sessionCategoryNames
+    }}
+    {{ $path := (printf "%s %s" (.title | urlize) .id) }}
+    {{ $page := dict
+        "content" $content
+        "kind" "page"
+        "params" $params
+        "path" $path
+        "title" .title
+    }}
+    {{ $pages = $pages | append $page }}
+
+    {{ range $speakers }}
+        {{/* Store profile pictures of speakers. */}}
+        {{ $speaker := . }}
+        {{ with $url := $speaker.profilePicture }}
+            {{ with resources.GetRemote $url  | images.Filter (images.Process "q90 webp") }}
+                {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
+                {{ $params := dict "alt" $speaker.fullName }}
+                {{ $resource := dict
+                    "content" $content
+                    "params" $params
+                    "path" (printf "%s/avatar %s.%s" $path $speaker.id .MediaType.SubType)
+                }}
+                {{ $resources = $resources | append $resource }}
+            {{ else }}
+                {{ errorf "Unable to get remote resource %s" $url }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ return dict "pages" $pages "resources" $resources }}

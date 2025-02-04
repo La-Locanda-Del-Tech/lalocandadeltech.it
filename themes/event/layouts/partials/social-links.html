@@ -1,0 +1,96 @@
+{{ $input := . }}
+
+{{/* Ensure a unique ID for each label on the page. */}}
+{{- if not (page.Scratch.Get "social_links_instance") }}
+    {{- page.Scratch.Set "social_links_instance" 0 }}
+{{- end }}
+{{- $labelId := (printf "social-links-list-label-%d" (page.Scratch.Get "social_links_instance")) }}
+{{- page.Scratch.Add "social_links_instance" 1 }}
+
+<label id="{{ $labelId }}" class="sr-only">{{ $input.ariaLabel }}</label>
+<ul class="social-links" aria-labelledby="{{ $labelId }}">
+    {{- if $input.linkedinUrl }}
+        <li class="social-links__menu-item">
+            <a
+                href="{{- $input.linkedinUrl }}"
+                aria-label="LinkedIn"
+                rel="external"
+                class="social-links__link {{ $input.linkClass }}">
+                {{- partial "graphics/social/linkedin.html" }}
+            </a>
+        </li>
+    {{ end }}
+
+    {{- if $input.youTubeUrl }}
+    <li class="social-links__menu-item">
+        <a
+                href="{{- $input.youTubeUrl }}"
+                aria-label="YouTube"
+                rel="external"
+                class="social-links__link {{ $input.linkClass }}">
+            {{- partial "graphics/social/youtube.html" }}
+        </a>
+    </li>
+    {{ end }}
+
+    {{- if $input.telegramUrl }}
+    <li class="social-links__menu-item">
+        <a
+                href="{{- $input.telegramUrl }}"
+                aria-label="Telegram"
+                rel="external"
+                class="social-links__link {{ $input.linkClass }}">
+            {{- partial "graphics/social/telegram.html" }}
+        </a>
+    </li>
+    {{ end }}
+
+    {{- if $input.twitchUrl }}
+    <li class="social-links__menu-item">
+        <a
+                href="{{- $input.twitchUrl }}"
+                aria-label="Twitch"
+                rel="external"
+                class="social-links__link {{ $input.linkClass }}">
+            {{- partial "graphics/social/twitch.html" }}
+        </a>
+    </li>
+    {{ end }}
+
+<!--    {{- if $input.xUrl }}-->
+<!--        <li class="social-links__menu-item">-->
+<!--            <a-->
+<!--                href="{{- $input.xUrl }}"-->
+<!--                aria-label="X (Twitter)"-->
+<!--                rel="external"-->
+<!--                class="social-links__link {{ $input.linkClass }}">-->
+<!--                {{- partial "graphics/social/x.html" }}-->
+<!--            </a>-->
+<!--        </li>-->
+<!--    {{ end }}-->
+
+<!--    {{- if $input.facebookUrl }}-->
+<!--        <li class="social-links__menu-item">-->
+<!--            <a-->
+<!--                href="{{- $input.facebookUrl }}"-->
+<!--                aria-label="Facebook"-->
+<!--                rel="external"-->
+<!--                class="social-links__link {{ $input.linkClass }}">-->
+<!--                {{- partial "graphics/social/facebook.html" }}-->
+<!--            </a>-->
+<!--        </li>-->
+<!--    {{ end }}-->
+
+    {{- if $input.companyUrl }}
+        <li class="social-links__menu-item">
+            <a
+                href="{{- $input.companyUrl }}"
+                role="menuitem"
+                aria-label="Company"
+                rel="external"
+                class="social-links__link {{ $input.linkClass }}">
+                {{- partial "graphics/social/company.html" }}
+            </a>
+        </li>
+    {{ end }}
+</ul>

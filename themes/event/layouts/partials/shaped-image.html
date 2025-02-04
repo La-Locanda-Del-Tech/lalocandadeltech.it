@@ -1,0 +1,29 @@
+{{ $input := . }}
+
+
+<article class="shaped-image">
+    {{- if not $input.hideDottedSquare }}
+        <figure class="shaped-image__figure">
+            {{- partial "graphics/dotted-square.html" }}
+        </figure>
+    {{- end }}
+
+
+    <img
+        {{- if $input.hideDottedSquare }}
+            class="shaped-image__image shaped-image__image--no-dotted-square"
+        {{- else }}
+            class="shaped-image__image"
+        {{- end }}
+        {{- with $input.imageResource }}
+            src="{{ .RelPermalink }}"
+        {{- else }}
+            {{- with resources.Get "images/shaped-image-fallback.webp" }}
+                src="{{ .RelPermalink }}"
+            {{- end }}
+        {{- end }}
+        alt="{{ $input.imageAlt }}"
+        {{ if not (eq .MediaType.SubType "svg") }}
+            width="{{ .Width }}" height="{{ .Height }}"
+        {{ end }} />
+</article>

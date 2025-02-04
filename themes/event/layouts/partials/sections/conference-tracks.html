@@ -1,0 +1,31 @@
+{{ $input := . }}
+
+
+<div class="section-container section-container--dimmed">
+    <section class="section section--long conference-tracks-section">
+        <h1 class="heading heading--highlighted heading--centered">
+            {{ T "conference_tracks_section.heading" }}
+        </h1>
+        <h2 class="heading heading--2 heading--centered">
+            {{ T "conference_tracks_section.subheading" }}
+        </h2>
+        <ol class="conference-tracks-section__list">
+            <li class="conference-tracks-section__list-item">
+                #DEVOPS
+            </li>
+            <li class="conference-tracks-section__list-item">
+                #CLOUD COMPUTING
+            </li>
+            <li class="conference-tracks-section__list-item">
+                #AI
+            </li>
+        </ol>
+
+        {{- with $input.sessionsUrl }}
+<!--            <a href="{{ . }}" class="button button&#45;&#45;outlined">-->
+<!--                {{ T "conference_tracks_section.action" }}-->
+<!--            </a>-->
+        <a class="button button--outlined">Agenda in arrivo!</a>
+        {{- end }}
+    </section>
+</div>

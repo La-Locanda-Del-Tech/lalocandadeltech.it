@@ -1,0 +1,35 @@
+{{ $input := . }}
+
+
+<div class="section-container">
+    <section
+        class="section section--long featured-speakers"
+        {{ with T "featured_speakers_section.heading" }}
+            aria-label="{{ . }}"
+        {{ end }}>
+        <h1 class="heading heading--highlighted heading--centered">
+            {{ T "featured_speakers_section.heading" }}
+        </h1>
+        <h2 class="heading heading--2 heading--centered">
+            {{ T "featured_speakers_section.subheading" }}
+        </h2>
+    {{ .RelPermalink }}
+        <ul
+            class="featured-speakers__menu"
+    >
+            <li>
+
+                <img
+                        src="/icons/question.png"
+                        alt="{{ $input.name }}"
+                        width="100em"
+                        height="100em" />
+            </li>
+            {{- range $index, $speaker := $input.speakers }}
+            {{- end }}
+        </ul>
+
+        {{- with $input.speakersUrl }}
+        {{- end }}
+    </section>
+</div>

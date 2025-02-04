@@ -1,0 +1,40 @@
+{{ $input := . }}
+
+<ul class="header-menu">
+    <li>
+        <a
+                {{- if $input.context.IsHome }}
+                class="header-menu__link header-menu__link--active"
+                {{- else }}
+                class="header-menu__link"
+                {{- end }}
+                href="{{ site.Home.RelPermalink }}">
+            {{ $input.homeLabel | default "Home" }}
+        </a>
+    </li>
+
+    {{- $currentNode := $input.context }}
+
+<!--    <li>-->
+<!--        <a-->
+<!--                href="/agenda"-->
+<!--                class="header-menu__link">-->
+<!--            Agenda-->
+<!--        </a>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--        <a-->
+<!--                href="/speakers"-->
+<!--                class="header-menu__link">-->
+<!--            Speakers-->
+<!--        </a>-->
+<!--    </li>-->
+
+    <li>
+        <a
+                href="/about"
+                class="header-menu__link">
+            Chi siamo
+        </a>
+    </li>
+</ul>

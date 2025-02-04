@@ -1,0 +1,52 @@
+{{ $input := . }}
+{{ $pages := slice }}
+{{ $resources := slice }}
+
+{{ range $input.sessionize.speakers }}
+    {{ $content := dict "mediaType" "text/markdown" "value" .bio }}
+    {{ $sessionIds := apply .sessions "cast.ToString" "." }}
+    {{ $sessions := where $input.sessionize.sessions "id" "in" $sessionIds }}
+    {{ $xUrl := (index (where .links "linkType" "eq" "Twitter") 0).url }}
+    {{ $linkedinUrl := (index (where .links "linkType" "eq" "LinkedIn") 0).url }}
+    {{ $companyUrl := (index (where .links "linkType" "eq" "Company_Website") 0).url }}
+    {{ $params :=
+        dict
+        "speakerId" .id
+        "tagLine" .tagLine
+        "sessions" $sessions
+        "isTopSpeaker" .isTopSpeaker
+        "xUrl" $xUrl
+        "linkedinUrl" $linkedinUrl
+        "companyUrl" $companyUrl
+        "lastName" .lastName
+        "firstName" .firstName
+    }}
+    {{ $path := (printf "%s %s" .fullName .id) }}
+    {{ $page := dict
+        "content" $content
+        "kind" "page"
+        "params" $params
+        "path" $path
+        "title" .fullName
+    }}
+    {{ $pages = $pages | append $page }}
+
+    {{/* Store the speaker's profile picture. */}}
+    {{ $item := . }}
+    {{ with $url := $item.profilePicture }}
+        {{ with resources.GetRemote $url  | images.Filter (images.Process "q90 webp") }}
+            {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
+            {{ $params := dict "alt" $item.fullName }}
+            {{ $resource := dict
+                "content" $content
+                "params" $params
+                "path" (printf "%s/avatar.%s" $path .MediaType.SubType)
+            }}
+            {{ $resources = $resources | append $resource }}
+        {{ else }}
+            {{ errorf "Unable to get remote resource %s" $url }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ return dict "pages" $pages "resources" $resources }}

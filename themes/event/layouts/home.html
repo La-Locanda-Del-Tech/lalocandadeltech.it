@@ -1,0 +1,106 @@
+{{- define "main" }}
+    {{- partial "sections/event-title.html"
+        (dict
+        "title" .Site.Params.themes.event.title
+        "location" .Site.Params.themes.event.location
+        "startDate" .Site.Params.themes.event.startDate
+        "backgroundImage" .Site.Params.themes.event.images.titleBackground
+        "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
+        "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+        )
+    }}
+
+    {{ $eventStartDate := or .Site.Params.themes.event.startDate now | time }}
+    {{ $eventEndDate := or .Site.Params.themes.event.endDate now | time }}
+    {{ $dayInSeconds := 86400 }}
+    {{ partial "sections/event-highlights.html" (
+        dict
+        "title" .Site.Params.themes.event.title
+        "subtitle" .Site.Params.themes.event.slogan
+        "description" .Site.Params.themes.event.description
+        "logo" .Site.Params.themes.event.images.logo
+        "numberOfSpeakers" ((where .Site.RegularPages "Section" "speakers") | len)
+        "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)
+        "numberOfDays" (div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds)
+        "location" .Site.Params.themes.event.location )
+    }}
+
+    {{- $tracks := slice }}
+    {{- range (.Site.RegularPages.GroupByParam "track") }}
+        {{- $tracks = $tracks | append (.Key) }}
+    {{- end }}
+
+    {{- if gt ($tracks | len) 1 }}
+        {{- partial "sections/conference-tracks.html" (
+            dict
+            "tracks" $tracks
+            "sessionsUrl" (.Site.GetPage "sessions").RelPermalink
+            )
+        }}
+    {{- end }}
+
+    {{- $topSpeakers := slice }}
+    {{- range (where .Site.Pages "Section" "speakers") }}
+        {{- if .Params.isTopSpeaker }}
+            {{- $topSpeakers = $topSpeakers | append (
+                dict
+                "profileUrl" .RelPermalink
+                "avatarResource" (.Resources.GetMatch "avatar.*")
+                "name" .Title
+                "description" .Params.tagLine
+                "linkedinUrl" .Params.linkedinUrl
+                "xUrl" .Params.xUrl
+                "companyUrl" .Params.company
+                )
+            }}
+        {{- end }}
+    {{- end }}
+
+    {{- if gt ($topSpeakers | len) 0 }}
+        {{ partial "sections/featured-speakers.html" (
+            dict
+            "speakers" $topSpeakers
+            "speakersUrl" (.Site.GetPage "speakers").RelPermalink
+            )
+        }}
+    {{- end }}
+
+    {{- $featuredSessions := slice }}
+    {{- range (where .Site.Pages "Section" "sessions") }}
+        {{- if (in .Site.Params.themes.event.featuredSessions .Params.sessionId) }}
+            {{- $featuredSessionPage := . }}
+            {{- $featuredSessionSpeakers := slice }}
+            {{- range .Params.speakers }}
+                {{- $speaker :=  . }}
+                {{- $featuredSessionSpeakers = $featuredSessionSpeakers | append (
+                    dict
+                    "avatarResource" ($featuredSessionPage.Resources.GetMatch (printf "avatar-%s.*" $speaker.id))
+                    "name" $speaker.fullName
+                    "slogan" $speaker.tagLine
+                    )
+                }}
+            {{- end }}
+            {{- $featuredSessions = $featuredSessions | append (
+                dict
+                "sessionUrl" $featuredSessionPage.RelPermalink
+                "sessionName" $featuredSessionPage.Title
+                "sessionDescription" $featuredSessionPage.RawContent
+                "speakers" $featuredSessionSpeakers
+                "categories" $featuredSessionPage.Params.categories
+                )
+            }}
+        {{- end }}
+    {{- end }}
+
+    {{- if gt ($featuredSessions | len) 0 }}
+        {{ partial "sections/featured-sessions.html" (
+            dict
+            "sessions" $featuredSessions
+            "sessionsUrl" (.Site.GetPage "sessions").RelPermalink
+            )
+        }}
+    {{- end }}
+
+    {{- partial "sections/our-sponsors.html" (dict "sponsors" .Site.Params.themes.event.sponsors) -}}
+    {{- partial "sections/our-partners.html" (dict "partners" .Site.Params.themes.event.partners) -}}
+{{- end }}

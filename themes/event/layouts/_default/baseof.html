@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="{{- .Site.Language.Lang -}}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="{{ .Site.Params.themes.event.favicon | absURL }}" />
+
+        <title>
+            {{- if .Title }}{{ .Title }} -{{ end }}
+            {{ .Site.Params.themes.event.title }}
+        </title>
+
+        <meta name="description" content="{{ .Site.Params.themes.event.description | markdownify | plainify }}" />
+
+        {{ if .IsTranslated }}
+            {{ range .Translations }}
+                <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+            {{ end }}
+            <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+        {{ end }}
+
+        {{ template "_internal/opengraph.html" . }}
+        {{ template "_internal/twitter_cards.html" . }}
+
+        {{ with (resources.Match "**/*.css" | resources.Concat "styles.css" | minify | fingerprint) }}
+            <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="screen" integrity="{{ .Data.Integrity }}" />
+        {{ end }}
+
+    <style>
+      :root {
+        --color-primary-lighter: {{- .Site.Params.themes.event.colors.primaryLighter }};
+        --color-primary: {{- .Site.Params.themes.event.colors.primary }};
+        --color-primary-darker: {{- .Site.Params.themes.event.colors.primaryDarker }};
+        --color-primary-darkest: {{- .Site.Params.themes.event.colors.primaryDarkest }};
+        --color-secondary: {{- .Site.Params.themes.event.colors.secondary }};
+        --color-secondary-darker: {{- .Site.Params.themes.event.colors.secondaryDarker }};
+        --color-track: {{- .Site.Params.themes.event.colors.track }};
+        --color-shadow: {{- .Site.Params.themes.event.colors.shadow }};
+      }
+    </style>
+    </head>
+
+    <body class="page-body">
+        <input type="checkbox" class="sidebar-toggle" id="sidebarToggle" />
+
+        {{- if .Site.Params.themes.event.callToAction.enableBanner }}
+            {{- partial "cta/banner.html" }}
+        {{ end }}
+
+
+        <header class="section-container page-header" id="pageHeader">
+            <div class="section section--short page-header__content" id="pageHeaderContent">
+                <nav id="mainNavigation" class="page-header__navigation" aria-labelledby="main-navigation-label">
+                    <!-- Label for assistive technologies only -->
+                    <label id="main-navigation-label" class="sr-only">{{ T "main_menu.label" }}</label>
+                    <label class="page-header__toggle-sidebar-label" for="sidebarToggle">
+                        {{- partial "graphics/hamburger-menu.html" }}
+                    </label>
+                    <a class="page-header__title-link" href="{{ site.Home.RelPermalink }}">
+                        {{ (strings.FirstUpper (or .Site.Params.themes.event.shortTitle .Site.Params.themes.event.title)) }}
+                    </a>
+
+                    <div class="page-header__menu-container">
+                        <div id="pageHeaderMenuScriptValidator" style="display: none;">
+                            <script>
+                                // Display the header menu only if JavaScript is enabled.
+                                pageHeaderMenuScriptValidator.style.display = 'inherit';
+                            </script>
+                            {{- partial "menus/header.html" (
+                                dict
+                                "menu" .Site.Menus.main
+                                "context" .
+                                "homeLabel" (strings.FirstUpper (or .Site.Params.themes.event.shortTitle .Site.Params.themes.event.title))
+                                )
+                            }}
+                        </div>
+                    </div>
+
+                    {{- partial "cta/button.html" (
+                        dict
+                        "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
+                        "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+                        )
+                    }}
+                </nav>
+            </div>
+        </header>
+
+        <aside class="page-sidebar">
+            <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
+                <header class="page-sidebar__header">
+                    <a class="page-sidebar__heading-link" href="{{ site.Home.RelPermalink }}">
+                        {{ (strings.FirstUpper (or .Site.Params.themes.event.shortTitle .Site.Params.themes.event.title)) }}
+                    </a>
+
+                    <label class="page-sidebar__close-label" for="sidebarToggle">
+                        {{- partial "graphics/close.html" }}
+                    </label>
+                </header>
+
+                {{- partial "cta/button.html" (
+                    dict
+                    "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
+                    "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+                    "buttonClass" "button--scaled"
+                    )
+                }}
+
+                {{- partial "menus/sidebar.html" (
+                    dict
+                    "menu" .Site.Menus.main
+                    "context" .
+                    )
+                }}
+
+
+                <div class="page-sidebar__social-links">
+                    {{- partial "social-links.html" (
+                        dict
+                        "linkedinUrl" .Site.Params.themes.event.socialLinks.linkedinUrl
+                        "xUrl" .Site.Params.themes.event.socialLinks.xUrl
+                        "facebookUrl" .Site.Params.themes.event.socialLinks.facebookUrl
+                        "youTubeUrl" .Site.Params.themes.event.socialLinks.youTubeUrl
+                        "companyUrl" .Site.Params.themes.event.socialLinks.companyUrl
+                        "linkClass" "page-sidebar__social-link"
+                        )
+                    }}
+                </div>
+
+                {{- partial "elements/made-by-medialesson.html" (
+                    dict
+                    "linkClass" "page-sidebar__made-by-link"
+                    )
+                }}
+            </nav>
+
+            <label class="page-sidebar__empty-space" for="sidebarToggle">
+            </label>
+        </aside>
+
+        <script>
+            const header = document.getElementById('pageHeader');
+            const intercept = document.createElement('div');
+
+            intercept.setAttribute('data-observer-intercept', '');
+            header.before(intercept);
+
+            const observer = new IntersectionObserver(([entry]) => {
+                header.classList.toggle('page-header--scrolled', !entry.isIntersecting);
+            });
+
+            observer.observe(intercept);
+        </script>
+
+        <script>
+            function checkWhichMenuToUse() {
+                document.body.setAttribute('data-menu-mode', 'header');
+                if (pageHeaderContent.scrollWidth > pageHeaderContent.clientWidth) {
+                    document.body.setAttribute('data-menu-mode', 'sidebar');
+                }
+            }
+
+            new ResizeObserver(checkWhichMenuToUse).observe(document.body);
+        </script>
+
+        <main class="page-main">
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        {{- with .Site.Menus.secondary }}
+            {{- if gt (len .) 0 }}
+                <div class="section-container section-container--dimmed">
+                    <div class="section section--long" role="complementary">
+                        {{- partial "menus/secondary.html" (dict "menu" .) -}}
+                    </div>
+                </div>
+            {{- end }}
+        {{- end }}
+
+
+        <footer class="section-container">
+            <section class="section section--short page-footer-section">
+                <div class="page-footer-section__start">
+                    <!-- Label for assistive technologies only -->
+                    <label for="language-select" class="sr-only">{{ T "language_menu.label" }}</label>
+                    <select id="language-select" class="select" name="language" onchange="location = this.value;">
+                        {{ range $.Site.Home.AllTranslations }}
+                            <option
+                                value="{{ .RelPermalink }}"
+                                {{ if eq .Language $.Language }}
+                                    selected
+                                {{ end }}>
+                                {{ or .Language.LanguageName .Language.Lang | upper }}
+                            </option>
+                        {{ end }}
+                    </select>
+
+                    {{- partial "social-links.html" (
+                        dict
+                        "linkedinUrl" .Site.Params.themes.event.socialLinks.linkedinUrl
+                        "xUrl" .Site.Params.themes.event.socialLinks.xUrl
+                        "facebookUrl" .Site.Params.themes.event.socialLinks.facebookUrl
+                        "youTubeUrl" .Site.Params.themes.event.socialLinks.youTubeUrl
+                        "twitchUrl" .Site.Params.themes.event.socialLinks.twitchUrl
+                        "telegramUrl" .Site.Params.themes.event.socialLinks.youTubeUrl
+                        "companyUrl" .Site.Params.themes.event.socialLinks.companyUrl
+                        "linkClass" "page-footer-section__social-link"
+                        "ariaLabel" (T "social-links_list.label")
+                        )
+                    }}
+                </div>
+
+                {{- partial "menus/footer.html" (dict "menu" site.Menus.footer) }}
+
+
+                <div class="page-footer-section__end">
+                    {{- partial "elements/made-by-medialesson.html" (
+                        dict
+                        "linkClass" "page-footer-section__made-by-link"
+                        )
+                    }}
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

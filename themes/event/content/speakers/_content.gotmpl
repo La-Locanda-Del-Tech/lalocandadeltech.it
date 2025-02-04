@@ -1,0 +1,27 @@
+{{ .EnableAllLanguages }}
+
+{{ $context := . }}
+{{ $sessionizeId := $context.Site.Params.themes.event.sessionizeId }}
+
+{{ if (or (eq $sessionizeId nil) (not $sessionizeId)) }}
+    {{ warnf "No Sessionize ID found! Did you set it in the site parameters?" }}
+{{ else }}
+    {{ with partialCached "sessionize-api/view-all.html" (
+        dict
+        "sessionizeId" $sessionizeId
+        )
+    }}
+        {{ with partial "content-adapters/create-speaker-content.html" (
+            dict
+            "sessionize" .
+            )
+        }}
+            {{ range .pages }}
+                {{ $.AddPage . }}
+            {{ end }}
+            {{ range .resources }}
+                {{ $.AddResource . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}

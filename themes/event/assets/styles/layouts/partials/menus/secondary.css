@@ -1,0 +1,12 @@
+.secondary-menu {
+    all: unset;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1.875rem;
+}
+
+.secondary-menu__description {
+    flex-grow: 2;
+}

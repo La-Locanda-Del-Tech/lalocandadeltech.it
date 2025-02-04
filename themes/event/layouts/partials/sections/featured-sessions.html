@@ -1,0 +1,96 @@
+{{ $input := . }}
+
+<div class="section-container section-container--highlighted">
+    <section
+        class="section section--long featured-sessions-section"
+        {{- with T "featured_sessions_section.heading" }}
+            aria-label="{{ . }}"
+        {{- end }}>
+        <div class="featured-sessions-section__carousel">
+            <menu class="carousel" role="menu">
+                {{- range $index, $session := $input.sessions }}
+                    <li
+                        id="featuredSession{{ $index }}"
+                        class="carousel__item featured-sessions-section__list-item"
+                        role="menuitem"
+                        aria-label="{{ $session.sessionName }}">
+                        <div class="featured-sessions-section__speakers">
+                            {{- if gt ($session.speakers | len) 0 }}
+                                {{- with index $session.speakers 0 }}
+                                    <figure
+                                        {{- if gt ($session.speakers | len) 1 }}
+                                            class="featured-sessions-section__avatar featured-sessions-section__avatar--first"
+                                        {{- else }}
+                                            class="featured-sessions-section__avatar"
+                                        {{- end }}>
+                                        {{- partial "shaped-image.html" (
+                                            dict
+                                            "imageResource" .avatarResource
+                                            "imageAlt" .name
+                                            )
+                                        }}
+                                        <figcaption class="featured-sessions-section__avatar-caption">
+                                            <strong>{{- .name -}}</strong>
+                                            <div>{{- .slogan -}}</div>
+                                        </figcaption>
+                                    </figure>
+                                {{- end }}
+                            {{- end }}
+
+                            {{- if gt ($session.speakers | len) 1 }}
+                                {{- with index $session.speakers 1 }}
+                                    <figure class="featured-sessions-section__avatar featured-sessions-section__avatar--second">
+                                        {{- partial "shaped-image.html" (
+                                            dict
+                                            "imageResource" .avatarResource
+                                            "imageAlt" .name
+                                            "hideDottedSquare" true
+                                            )
+                                        }}
+                                        <figcaption class="featured-sessions-section__avatar-caption">
+                                            <strong>{{ .name }}</strong>
+                                            <div>{{ .slogan }}</div>
+                                        </figcaption>
+                                    </figure>
+                                {{- end }}
+                            {{- end }}
+                        </div>
+                        <div class="featured-sessions-section__session">
+                            <h1 class="heading">
+                                {{- T "featured_sessions_section.heading" -}}
+                            </h1>
+                            <h2 class="heading heading--2" aria-label="{{- $session.sessionName -}}">
+                                {{- $session.sessionName -}}
+                                <div class="featured-sessions-section__categories">
+                                    {{- partial "session-categories.html" (dict "categories" $session.categories) }}
+                                </div>
+                            </h2>
+
+                            <p class="paragraph paragraph--highlighted featured-sessions-section__session-description">
+                                {{- substr $session.sessionDescription 0 200 -}}...
+                                <a href="{{ $session.sessionUrl }}" class="link link--white">
+                                    {{- T "featured_sessions_section.read_more" | lower -}}
+                                </a>
+                            </p>
+                            <div class="featured-sessions-section__carousel-buttons">
+                                {{- partial "carousel-buttons.html" (
+                                    dict
+                                    "index" $index
+                                    "numberOfItems" (len $input.sessions)
+                                    "elementIdPrefix" "featuredSession"
+                                    )
+                                }}
+                            </div>
+                        </div>
+                    </li>
+                {{- end }}
+            </menu>
+        </div>
+
+        {{- with $input.sessionsUrl }}
+            <a href="{{ . }}" class="button button--outlined button--scaled">
+                {{- T "featured_sessions_section.action" -}}
+            </a>
+        {{- end }}
+    </section>
+</div>
