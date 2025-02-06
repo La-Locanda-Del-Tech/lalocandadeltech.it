@@ -3,7 +3,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .social-links__menu-item {
