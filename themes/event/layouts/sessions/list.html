@@ -1,4 +1,6 @@
 {{- define "main" }}
+{{ $input := . }}
+
     {{- $scheduledSessionPages := where .Pages "Params.isScheduled" true }}
     {{- $sessionsGroupedByDay := $scheduledSessionPages.GroupByParamDate "date" "2006-01-02" "asc" }}
     {{- $sessionsGroupedByTrack := $scheduledSessionPages.GroupByParam "track" }}

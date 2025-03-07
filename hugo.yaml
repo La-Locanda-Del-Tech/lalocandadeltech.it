@@ -5,36 +5,17 @@ defaultContentLanguage: it
 theme: event
 sectionPagesMenu: main
 languages:
-    en:
-        languageName: EN
-        disabled: false
-        params:
-            themes:
-                event:
-                    slogan: A Hugo Theme for Conferences
-                    description: |
-                        This is a placeholder for your event description. You can customize it,
-                        together with all other settings, in your Hugo configuration file.
-                        We hope you enjoy using this theme! 🎉
-                    directions: |
-                        Directions for getting to the location using public transportation. 
-                        Customize this placeholder text in your Hugo configuration file or remove it if not needed.
-                    # 👇 This field provides an introduction or overview about the event or organization.
-                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
-                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
-                    aboutUs: |
-                        More information about the event will be added soon. Stay tuned! 🎉
     it:
         languageName: It
         disabled: false
-#        menus:
-#            main:
-#                - identifier: about
-#                  name: Chi siamo
-#                  pageRef: /about
-#                  weight: 10
-##                - identifier: agenda
-##                  pageRef: /agenda
+        menus:
+            main:
+                - identifier: about
+                  name: Chi siamo
+                  pageRef: /about
+                  weight: 10
+#                - identifier: agenda
+#                  pageRef: /agenda
 #                  name: Agenda
 #                  weight: 10
 #                - identifier: sessioni
@@ -75,8 +56,8 @@ params:
             sessionizeId: 67poir7q
             title: La Locanda del Tech
             shortTitle:
-            startDate: 2025-03-17
-            endDate: 2025-03-17
+            startDate: 2025-03-17T10:00:00
+            endDate: 2025-03-17T18:00:00
             location: Online
             address:
                 - StreamYard
@@ -123,6 +104,14 @@ params:
             organizers: LaLocandaDelTech
             # 👇 List of Sessionize session IDs of highlight sessions.
             featuredSessions:
+                - "872780"
+                - "856978"
+                - "856977"
+                - "872641"
+                - "869662"
+                - "872189"
+                - "872265"
+                - "857803"
             colors:
                 primaryLighter: '#f9b529'
                 primary: '#ce9f00'

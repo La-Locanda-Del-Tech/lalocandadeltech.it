@@ -1,4 +1,5 @@
 {{- define "main" }}
+
     {{- partial "sections/event-title.html"
         (dict
         "title" .Site.Params.themes.event.title
@@ -93,6 +94,7 @@
             }}
         {{- end }}
     {{- end }}
+
 
     {{- if gt ($featuredSessions | len) 0 }}
         {{ partial "sections/featured-sessions.html" (

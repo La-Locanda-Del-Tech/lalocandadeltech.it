@@ -1,526 +1,2117 @@
 {
+
     "sessions": [
+
         {
-            "id": "b99eb568-4f2c-4fd9-8ec6-a1326b961dfc",
-            "title": "Registration",
-            "description": null,
-            "startsAt": "2025-01-30T11:00:00",
-            "endsAt": "2025-01-30T12:00:00",
-            "isServiceSession": true,
+
+            "id": "872641",
+
+            "title": "Accendere la Passione: Rivitalizzare la Motivazione nei Team Tech",
+
+            "description": "Nel panorama in continua evoluzione dell'industria tech, il concetto di motivazione del team è passato dall'essere una questione marginale a un elemento centrale del successo organizzativo. Questo talk adotta questa visione contemporanea, combinando approfondimenti dalla psicologia motivazionale con pratiche di gestione innovative. Questo approccio garantisce che la motivazione e lo spirito di squadra siano parte integrante del percorso di un team tech, sin dall'inizio e attraverso tutte le fasi di sviluppo del progetto e del team.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
             "isPlenumSession": false,
-            "speakers": [],
+
+            "speakers": [
+
+                "14c6ae82-121f-457e-a04a-f6aefb52b078"
+
+            ],
+
             "categoryItems": [],
+
             "questionAnswers": [],
-            "roomId": 52655,
+
+            "roomId": null,
+
             "liveUrl": null,
+
             "recordingUrl": null,
-            "status": null,
-            "isInformed": false,
-            "isConfirmed": false
-        },
-        {
-            "id": "729573",
-            "title": "Emma's Session",
-            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Illustration, Personal branding, Consumer. Ha!",
-            "startsAt": "2025-01-30T12:00:00",
-            "endsAt": "2025-01-30T13:00:00",
-            "isServiceSession": false,
-            "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000002"],
-            "categoryItems": [290678, 290680, 290686, 290687],
-            "questionAnswers": [],
-            "roomId": 52655,
-            "liveUrl": null,
-            "recordingUrl": null,
+
             "status": "Accepted",
-            "isInformed": false,
+
+            "isInformed": true,
+
             "isConfirmed": false
+
         },
+
         {
-            "id": "729574",
-            "title": "Olivia's Session",
-            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Personal branding, Coffee, Shoe. Ha!",
-            "startsAt": "2025-01-30T12:00:00",
-            "endsAt": "2025-01-30T13:00:00",
+
+            "id": "872243",
+
+            "title": "Angular smart components: meno codice, più flessibilità",
+
+            "description": "Ti è mai capitato di aggiungere un’infinità di input a un componente Angular solo per gestire qualche semplice attributo HTML? Se la risposta è sì, questo talk fa proprio al caso tuo!\r\n\r\nInsieme esploreremo come scrivere componenti Angular in modo più intelligente e riutilizzabile. Scopriremo come sfruttare al meglio i selettori per migliorare gli elementi base del DOM.\r\n\r\nVedremo anche le potenzialità dell'Host Binding, per lavorare in modo più efficace con gli elementi host dei nostri componenti, e come la Directive Composition API possa dare una marcia in più, rendendo il nostro codice ancora più flessibile.\r\n\r\nIn poche parole, impareremo a scrivere componenti Angular che non solo funzionano bene, ma lo fanno con eleganza e efficienza!",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
             "isServiceSession": false,
+
             "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000003"],
-            "categoryItems": [290679, 290681, 290685, 290693],
-            "questionAnswers": [],
-            "roomId": 52656,
-            "liveUrl": null,
-            "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": false,
-            "isConfirmed": false
-        },
-        {
-            "id": "3447531d-f78e-4ca0-8b80-22368909baa4",
-            "title": "Coffee Break",
-            "description": null,
-            "startsAt": "2025-01-30T13:00:00",
-            "endsAt": "2025-01-30T14:00:00",
-            "isServiceSession": true,
-            "isPlenumSession": false,
-            "speakers": [],
+
+            "speakers": [
+
+                "60158436-45e2-4d9d-b885-d41f5e4d4039"
+
+            ],
+
             "categoryItems": [],
+
             "questionAnswers": [],
-            "roomId": 52655,
+
+            "roomId": null,
+
             "liveUrl": null,
+
             "recordingUrl": null,
-            "status": null,
-            "isInformed": false,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
             "isConfirmed": false
+
         },
+
         {
-            "id": "729572",
-            "title": "Jackson's Session",
-            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Board games, Coffee, Psychology. Ha!",
-            "startsAt": "2025-01-30T14:00:00",
-            "endsAt": "2025-01-30T15:00:00",
+
+            "id": "850569",
+
+            "title": "Ars Provocatoria, an engineering leadership tale",
+
+            "description": "In software engineering, kindness empowers coding prowess.\r\n\r\n\"Ars Provocatoria: An Engineering Leadership Tale\" explores how adopting practices like radical candor, kind leadership, thorough code reviews, team rituals, and constructive peer challenges can transform you into an exceptional developer, tech lead or engineering manager.\r\n\r\nWe'll delve into real-world examples and practical techniques to enhance team performance and morale. Learn how honesty builds trust, routine code reviews ensure quality, and team rituals promote continuous improvement.\r\n\r\nWhether you're aspiring to lead or seeking to refine your skills, this talk offers actionable insights to help you excel as a software engineer and leader.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
             "isServiceSession": false,
+
             "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000001"],
-            "categoryItems": [290679, 290681, 290684, 290691],
-            "questionAnswers": [],
-            "roomId": 52655,
-            "liveUrl": null,
-            "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": false,
-            "isConfirmed": false
-        },
-        {
-            "id": "729571",
-            "title": "Mastering Personal Branding in the Digital Age",
-            "description": "In this engaging session, we will explore the essential strategies for building and maintaining a strong personal brand in today's digital landscape. Learn how to leverage social media, create compelling content, and effectively communicate your unique value proposition. Whether you're a professional looking to enhance your career prospects or an entrepreneur aiming to stand out in a crowded market, this session will provide actionable insights and practical tips to elevate your personal brand.",
-            "startsAt": "2025-01-30T14:00:00",
-            "endsAt": "2025-01-30T15:00:00",
-            "isServiceSession": false,
-            "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000000", "00000000-0000-0000-0000-000000000001"],
-            "categoryItems": [290678, 290680, 290683, 290687],
-            "questionAnswers": [],
-            "roomId": 52656,
-            "liveUrl": null,
-            "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": false,
-            "isConfirmed": false
-        },
-        {
-            "id": "3861063a-4d99-4aef-b4f2-ca3834218de8",
-            "title": "Lunch",
-            "description": "Take a break and enjoy a delicious lunch while networking with fellow attendees. This is a great opportunity to relax, recharge, and discuss the morning sessions with peers. Whether you're looking to make new connections or catch up with old friends, this lunch session provides a perfect setting to foster meaningful conversations and collaborations.",
-            "startsAt": "2025-01-30T15:00:00",
-            "endsAt": "2025-01-30T16:00:00",
-            "isServiceSession": true,
-            "isPlenumSession": false,
-            "speakers": [],
+
+            "speakers": [
+
+                "ea344c2f-e20a-4995-8bf3-5503ab2a7ad1"
+
+            ],
+
             "categoryItems": [],
+
             "questionAnswers": [],
-            "roomId": 52655,
+
+            "roomId": null,
+
             "liveUrl": null,
+
             "recordingUrl": null,
-            "status": null,
-            "isInformed": false,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
             "isConfirmed": false
+
         },
+
         {
-            "id": "729576",
-            "title": "Building Scalable Microservices with Kubernetes",
-            "description": "Explore the world of microservices and learn how to build scalable, resilient applications using Kubernetes. This session will cover the fundamentals of microservices architecture, containerization, and orchestration with Kubernetes. Attendees will gain practical insights into deploying, managing, and scaling microservices in a cloud-native environment. Whether you're a developer, architect, or DevOps engineer, this session will equip you with the knowledge to leverage Kubernetes for your next project.",
-            "startsAt": "2025-01-30T16:00:00",
-            "endsAt": "2025-01-30T17:00:00",
+
+            "id": "850750",
+
+            "title": "BROOOOOO",
+
+            "description": "FRAAAAAAAA",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
             "isServiceSession": false,
+
             "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000005"],
-            "categoryItems": [290679, 290682, 290683, 290691],
-            "questionAnswers": [],
-            "roomId": 52656,
-            "liveUrl": null,
-            "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": false,
-            "isConfirmed": false
-        },
-        {
-            "id": "729579",
-            "title": "The Future of AI: Trends and Innovations",
-            "description": "Join us for an insightful session where we explore the latest trends and innovations in artificial intelligence. From cutting-edge research to practical applications, this session will cover a wide range of topics that are shaping the future of AI. Whether you're a seasoned professional or just starting out, you'll gain valuable insights and knowledge to stay ahead in this rapidly evolving field.",
-            "startsAt": "2025-01-31T13:00:00",
-            "endsAt": "2025-01-31T14:00:00",
-            "isServiceSession": false,
-            "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000008"],
-            "categoryItems": [290679, 290682, 290684, 290694],
-            "questionAnswers": [],
-            "roomId": 52655,
-            "liveUrl": null,
-            "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": false,
-            "isConfirmed": false
-        },
-        {
-            "id": "729575",
-            "title": "Aiden's Session",
-            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Interview, Consumer, Psychology. Ha!",
-            "startsAt": "2025-01-31T13:00:00",
-            "endsAt": "2025-01-31T14:00:00",
-            "isServiceSession": false,
-            "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000004"],
-            "categoryItems": [290678, 290681, 290683, 290691],
-            "questionAnswers": [],
-            "roomId": 52656,
-            "liveUrl": null,
-            "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": false,
-            "isConfirmed": false
-        },
-        {
-            "id": "906e19b8-cf7b-435b-8ee3-2f695ef71f81",
-            "title": "Lunch",
-            "description": null,
-            "startsAt": "2025-01-31T14:00:00",
-            "endsAt": "2025-01-31T15:00:00",
-            "isServiceSession": true,
-            "isPlenumSession": false,
-            "speakers": [],
+
+            "speakers": [
+
+                "15a73882-282a-40b3-a555-ba22847cee40"
+
+            ],
+
             "categoryItems": [],
+
             "questionAnswers": [],
-            "roomId": 52655,
+
+            "roomId": null,
+
             "liveUrl": null,
+
             "recordingUrl": null,
-            "status": null,
-            "isInformed": false,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
             "isConfirmed": false
+
         },
+
         {
-            "id": "729577",
-            "title": "Liam's Session",
-            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Technology, Personal branding, Illustration. Ha!",
-            "startsAt": "2025-01-31T15:00:00",
-            "endsAt": "2025-01-31T16:00:00",
+
+            "id": "854096",
+
+            "title": "Building an Accessible Web from the Ground Up",
+
+            "description": "Building an accessible web goes beyond compliance; it is about digital equity and user-first experiences. This session will explore integrating accessibility into web projects from the start. Participants will learn:\r\n- About integrating accessibility into design systems and wireframes.\r\n- Essential development practices for accessible coding.\r\n- Tools and resources for testing and refining accessibility throughout the lifecycle.\r\nAttendees will leave equipped to build websites that are inclusive, innovative, and compliant.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
             "isServiceSession": false,
+
             "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000006"],
-            "categoryItems": [290679, 290682, 290685, 290692],
+
+            "speakers": [
+
+                "f4e6ee8e-93e0-4f71-b4b6-db6cefbaa27e"
+
+            ],
+
+            "categoryItems": [],
+
             "questionAnswers": [],
-            "roomId": 52655,
+
+            "roomId": null,
+
             "liveUrl": null,
+
             "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": false,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
             "isConfirmed": false
+
         },
+
         {
-            "id": "729578",
-            "title": "Noah's Session",
-            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Coffee, Human resources, Illustration. Ha!",
-            "startsAt": "2025-01-31T15:00:00",
-            "endsAt": "2025-01-31T16:00:00",
+
+            "id": "860335",
+
+            "title": "Costruire un software enterprise senza (troppa) noia né weekend insonni",
+
+            "description": "Il software \"enterprise\" è spesso considerato (a ragione) la parte più noiosa dello sviluppo: tante tabelle, tante query, tanto codice ripetitivo. D'altro canto, è software che serve, che viene usato, che è parte del rendere più efficiente e sostenibile una attività.\r\n\r\nSiamo partiti da una situazione privilegiata: la nuova iterazione tecnologica del nostro principale prodotto. Abbiamo così selezionato, e poi costruito un processo interno con cui siamo riusciti a scaricare le parti noiose sulle macchine e far collaborare efficacemente i team. Siamo anche riusciti a consegnare (quasi sempre) in tempo, a gestire il continuo cambiamento delle priorità, mantenere, dopo ormai tre anni, il costo del cambiamento tutto sommato costante e soprattutto tenerci i weekend per le nostre famiglie.\r\n\r\nVi racconteremo come è fatto il nostro processo, e quali condizioni sono necessarie perché sia utile anche a voi. Alcune parti potrebbero esservi d'aiuto anche se la vostra situazione è molto differente.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
             "isServiceSession": false,
+
             "isPlenumSession": false,
-            "speakers": ["00000000-0000-0000-0000-000000000007"],
-            "categoryItems": [290677, 290682, 290684, 290689],
+
+            "speakers": [
+
+                "8e0c85d5-046d-488f-90b7-6fe2cd1987da"
+
+            ],
+
+            "categoryItems": [],
+
             "questionAnswers": [],
-            "roomId": 52656,
+
+            "roomId": null,
+
             "liveUrl": null,
+
             "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": false,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
             "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "857803",
+
+            "title": "Da Junior a Leader: Il Potere di Dire Sì (e l'Importanza di Dire No)",
+
+            "description": "All’inizio della carriera, il segreto della crescita è dire tanti \"sì\": accettare nuove sfide, uscire dalla comfort zone, imparare il più possibile. Ma più si avanza, più diventa cruciale il potere del \"no\": dire no alle distrazioni, no alle richieste che non hanno impatto, no a essere solo esecutori.\r\n\r\nIn questo talk esploreremo il viaggio da Junior a Engineering Manager, analizzando:\r\n✅ Quando dire sì per crescere e farsi notare nei primi anni di carriera.\r\n✅ Come portare valore come Senior Engineer senza solo \"scrivere codice meglio\".\r\n✅ Il passaggio a Tech Lead e Manager: quando dire no diventa più importante che dire sì.\r\n✅ Errori comuni da evitare a ogni livello e strategie per avere impatto reale.\r\n\r\nChe tu sia un Junior che vuole accelerare la carriera, un Senior che cerca di aumentare la propria influenza o un Tech Lead che vuole gestire meglio priorità e aspettative, questo talk ti darà una guida chiara su come essere sempre al top e portare valore in ogni fase della tua crescita.\r\n\r\n🎯 Target audience:\r\n\r\nJunior & Mid Engineers che vogliono farsi notare e crescere più velocemente.\r\nSenior Engineers & Tech Leads che vogliono migliorare l’impatto e prepararsi alla leadership.\r\nEngineering Managers che vogliono aiutare il proprio team a crescere.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "1e5320cf-0582-4010-b876-06c1e864233a"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Accepted",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "856978",
+
+            "title": "Dal codice alla leadership: insidie e sfide nel passaggio da Individual Contributor a Tech Lead",
+
+            "description": "Il passaggio da Individual Contributor a Tech Lead è un viaggio trasformativo, ricco di sfide e crescita. In questo intervento condividerò la mia evoluzione personale, insieme agli ostacoli superati, agli errori commessi e alle lezioni apprese. Scoprirai perché essere un ottimo Software Engineer non significa automaticamente essere un grande leader e imparerai quali sono le competenze necessarie per colmare questo divario e guidare con successo un team. ",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "09c0d812-a3fa-4518-a1ff-14c1ef6241b5"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Accepted",
+
+            "isInformed": true,
+
+            "isConfirmed": true
+
+        },
+
+        {
+
+            "id": "850357",
+
+            "title": "Dance",
+
+            "description": "Yo Penta",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "15a73882-282a-40b3-a555-ba22847cee40"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "857307",
+
+            "title": "Designing Secure Web Service",
+
+            "description": "E' tutto in inglese perche' e' tanto che raccolgo informazioni quindi le strutturate cosi'. Ovviamente parlero' in italiano, sono italiano.\r\n\r\nQuesta e' una descrizione di quel che sara' il talk ma andare a marzo potrei tagliare qualcosa per fittare in 40minuti meglio.\r\n\r\nLavoro in una azienda di security di cui non parlero', lo dico perche' sembra altrimenti che voglia fare una sponsor\r\n\r\nSe volete fare una call per approfondire o correggere sono disponibile\r\n\r\nAbstract\r\nExploring the fundamentals of APIs—what they are and the variety of services they enable—this talk will provide an in-depth walkthrough of designing effective API and web services. We will delve into best practices that enhance development process from the ground, examine how architecture of APIs adapt and grow throughout the product lifecycle, and discuss practical strategies to bolster the security of web services. \r\nBy understanding these key concepts, attendees will gain valuable insights into creating robust, scalable, and secure APIs that drive successful digital experiences.\r\n\r\nAgenda\r\n\r\n1. Introduction to APIs\r\n\t• Definition of an API\r\n\t• Different types of services APIs can power:\r\n\t\t• End-user products\r\n\t\t• Service or infrastructure providers offering SDKs\r\n\r\n2. Building APIs\r\n\t• Different approaches to API development:\r\n\t\t• Using frameworks and boilerplate code\r\n\t\t• Building from scratch\r\n\t\t• Leveraging third-party platforms\r\n\r\n3. API Documentation\r\n\t• OpenAPI specifications\r\n\t• Code-generated documentation vs. documentation-generated code\r\n\r\n4. Testing APIs\r\n\t• Unit testing (by module/package)\r\n\t• Integration testing:\r\n\t\t• Code-based integration tests\r\n\t\t• External tool-based integration tests\r\n\r\n5. Input Validation & Security\r\n\t• Fuzz testing\r\n\t• Field validation (e.g., ensuring an email field contains a valid email)\r\n\t• Query filters\r\n\t• SQL injection attacks (demo/video)\r\n\t• Strategies to mitigate these vulnerabilities\r\n\r\n6. Response Codes & Security Considerations\r\n\t• Importance of proper HTTP response codes for API consumers\r\n\t• Understanding CORS and why it matters\r\n\t• Role of cookies in security\r\n  • Role of headers in security\r\n\r\n7. Logging for Incident Response\r\n\t• Avoid leaking Personally Identifiable Information (PII)\r\n\t• Capturing payloads for debugging and reproducing issues\r\n\r\n9. Error Handling & Information Leakage\r\n\t• Differentiating errors for customers vs. developers\r\n\t• Preventing information leaks:\r\n\t\t• Hiding framework names\r\n\t\t• Avoiding stack traces in responses\r\n\t\t• Suppressing database errors and other sensitive details\r\n\t\t• No other information for illigitimate users \r\n\r\n10. Middleware for Security & Performance\r\n\t• Authentication mechanisms:\r\n\t\t• Token refresh strategies\r\n\t\t• Token TTL (Time-to-Live)\r\n\t\t• Token invalidation techniques\r\n\t• Compression (e.g., Gzip)\r\n\r\n11. Preventing Unauthorized Route Access\r\n\t• Handling unauthorized access attempts to admin or restricted routes\r\n\t• Mitigation strategies\r\n\r\n12. Data Protection & Roles access\r\n\t• Implementing RBAC correctly\r\n\t• Implementing ABAC correctly\r\n\t• Separating business logic from access control\r\n\r\n13. Continuous Integration & Security Checks\r\n\t• Monitoring security updates\r\n\t• Avoiding excessive dependencies\r\n\t• Tools for dependency vulnerability checks\r\n\t• Linters for code quality\r\n\t• Runtime security tools\r\n\r\n14. Bonus Tips\r\n\t• Tracking user IPs for unusual login behavior (e.g., geographic anomalies)\r\n\t• Designing a secure password recovery flow:\r\n\t• Rate limiting code submissions\r\n\t• Ensuring recovery APIs aren’t exposed to normal users\r\n\t• Automatic invalidation of recovery codes after a set time\r\n\t• Logging IP addresses of recovery attempts\r\n\t• Preventing session-sharing attacks\r\n\t• Disabling JavaScript execution during critical operations (where applicable)",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "3135968f-7cdf-434f-9916-e4e192958f0d"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "872189",
+
+            "title": "Developer che odiano il personal branding",
+
+            "description": "I toscani stanno a questo Paese come il marketing sta a Internet. \r\nQuesto è almeno quello che pensa chi ha sognato il cyberspazio come un nuova frontiera sociale.\r\nÈ possibile parlare di personal branding a chi ha questi pregiudizi?\r\nNo. Infatti questo talk parla a chi, nonostante i propri pregiudizi, vuole scoprire qualcosa di utile per promuovere il proprio lavoro durante eventi e conferenze.\r\nChe sia per cercare nuove opportunità di lavoro o per cercare clienti per il proprio progetto tech, qualche nozione base di personal branding per raggiungere il proprio obiettivo.\r\n",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "54df91bd-7e2e-4188-bc5f-0e9f47679738"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Accepted",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "850748",
+
+            "title": "Elgo will dance",
+
+            "description": "aaaaa",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "15a73882-282a-40b3-a555-ba22847cee40"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "857392",
+
+            "title": "Game Jam for Dummies",
+
+            "description": "Hackathon, Game Jam, cosa devi sapere prima di partecipare e perché dovresti farlo. Sfatiamo il mito e dimostriamo che almeno 3 ore durante quel week end le riuscirai a dormire.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "16ad48b9-88b5-4ed4-b705-fc9f93aaa867"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "867276",
+
+            "title": "Guidare Team Dinamici: Superare le Sfide e Raggiungere il Successo con le Competenze Morbide",
+
+            "description": "Unisciti a me in un viaggio di scoperta della leadership mentre condivido le mie esperienze personali nella guida di team sia remoti che locali. Dalle sfide superate nella gestione delle distanze alla creazione di un senso di unità in ambienti diversificati, rivelerò come le competenze morbide siano state fondamentali per raggiungere il successo.\r\n\r\nQuesta sessione esplorerà strategie pratiche che mi hanno aiutato a costruire team resilienti e dinamici, capaci di prosperare in qualsiasi contesto. Attraverso aneddoti realistici e consigli applicabili, scopriremo come l'empatia, la comunicazione efficace, l'adattabilità e la creatività possano trasformare il tuo approccio alla leadership.\r\n\r\nPunti Chiave da Portare a Casa:\r\n\r\nEmpatia Oltre i Confini: Impara a creare un senso di appartenenza tra i membri del team indipendentemente dalla loro ubicazione.\r\n\r\nStrategie Comunicative: Scopri tecniche per mantenere chiarezza e trasparenza anche quando i team sono sparsi.\r\n\r\nAdattarsi al Cambiamento: Capisci come la flessibilità possa aiutarti a navigare sfide impreviste mantenendo allineato il tuo team.\r\n\r\nInnovazione attraverso la Diversità: Esplora modi per sfruttare prospettive diverse per risolvere problemi creativamente.\r\n\r\nIntuizioni Personali dal Mio Percorso:\r\n\r\nSuperare l'isolamento nei team remoti\r\n\r\nCostruire fiducia attraverso diversi fusi orari\r\n\r\nGestire differenze culturali all'interno dei team local\r\n\r\nDurata: 35 minuti + 5 minuti Q&A\r\n\r\nQuesta sessione è progettata per ispirarti all'azione condividendo storie relazionabili e fornendo consigli praticabili sulla guida efficace dei team dinamici. Partirai con nuove intuizioni su come le competenze morbide possano elevare il tuo stile di leadership oggi e prepararti per il futuro.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "b229e20c-1124-4560-b5c4-f03c5b9873c5"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "850291",
+
+            "title": "Guido Penta sei bellissimo 🫶🏻",
+
+            "description": "In questo talk parleremo di quel sorriso... quel maledetto sorriso...",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "5bc3d9b1-5234-41d8-9156-2cb8ee227402"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "859507",
+
+            "title": "H.A.C.K. your English. How to speak confidently in an international context",
+
+            "description": "Perfectionism, Fear, Imposter Syndrome: are they blocking you?\r\nEnglish for Tech is not the same as general English. What can you do to become more confident and boost your career? You can...\r\n\r\n▶️H.A.C.K. your English!\r\n\r\nHONE: Expand your vocabulary in context.\r\nACTION: Learn by doing\r\nCOLLABORATION: Join a community. Exchange ideas (in English)\r\nKUDOS: Celebrate effort\r\n\r\n▶️AI is not just for technical tasks. It can enhance your English communication skills on Presentations (Speech recognition, Text to Audio, Teleprompter and ChatGPT), Job interview (Simulate the job interview process and test your answers), Small Talk (an AI buddy to practice tricky social situations and talk about general topics), pronunciation (AI tool to practice and get instant feedback).\r\n\r\n▶️English and Soft Skills in IT. Teamwork, collaboration, leadership, active listening, networking… soft skills are essential for your career in Tech. In a global market, soft skills are closely linked to the English language.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "8b37d320-c3c8-4fba-9186-9af9025c284d"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "850647",
+
+            "title": "Hdhdh",
+
+            "description": "Fjffj",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "53680401-e0b7-4b9c-b252-685192ad8ec7"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "857844",
+
+            "title": "Ho lasciato il posto fisso e sono felice",
+
+            "description": "Facendo venire un infarto al Checco Zalone che vive in ognuno di noi, ho deciso non solo di lasciare una \"big tech company\", ma anche di mettermi finalmente in proprio. E sono felice (finora). Ma come mai ho deciso che salire la \"company ladder\" forse non faceva per me? Come ho agito? Quali sono i trucchi (anche fiscali) a cui un giovane padre deve attingere? Ma soprattutto, in un mondo governato dalla stupiditá funzionale, quali sono i prossimi passi per continuare a \"lavorare felicemente\"?",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "ee1e93a6-c729-4b2d-9795-72a29c1e5024"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "857554",
+
+            "title": "I’ve done TDD wrong all the time",
+
+            "description": "Uncle Bob nel suo libro “The clean coder” descrive il TDD (Test Driven Development) come: \"una disciplina che esalta la certezza, il coraggio, la riduzione dei difetti, la documentazione e il design” e considera poco professionale non usarla.\r\nIncuriosito da queste parole, ho approfondito il TDD sempre di più, prima studiandone la teoria e poi applicandolo nella vita lavorativa quotidiana.\r\n\r\nL’elemento che mi attraeva maggiormente era la promessa che tramite questa tecnica fosse possibile rimuovere la paura del refactoring.\r\nNiente più timore nel modificare codice esistente, niente più bug inaspettati, libertà nel cambiare e modellare il codice a proprio piacimento! \r\nNon è forse questo il sogno di ogni sviluppatore?\r\nTutto ciò grazie ai test che avremmo scritto prima del codice di produzione. Essi sarebbero rimasti al nostro fianco a proteggerci e a farci da spalla come fedeli alleati.\r\n\r\n\r\nPurtroppo però tale sogno per me non si realizzava.\r\n\r\nMolte volte mi vedevo costretto a modificare decine di Unit Test e Mock a causa dell’introduzione di una nuova classe o di un design pattern. \r\nI test risultavano essere fragili; essi erano più un ostacolo al cambiamento che un sostegno allo sviluppo.\r\n\r\nSe come me avete provato o provate queste stesse frustrazioni nell’utilizzo del TDD questo talk è per voi!\r\n\r\nIn questa sessione vorrei condividere la mia esperienza e gli errori che ho commesso in questi anni, cosa ho imparato da essi e come li ho corretti. \r\nMostrerò degli esempi concreti, cercando di fare chiarezza su qual è effettivamente l'essenza del TDD e su come si possano ottenere dei test efficaci che ci supportino nello sviluppo.\r\n",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "a8dd4ebe-51b5-4a49-b713-24934b9d2f57"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "872265",
+
+            "title": "Il Manifesto del Lean Web",
+
+            "description": "Nel mondo dello sviluppo web moderno, la complessità è diventata la norma: framework pesanti, dipendenze infinite e codice sovraccarico sembrano imprescindibili. Ma è davvero così?\r\n\r\nIl talk si esplora il concetto di Lean Web, un approccio che punta a ridurre gli sprechi, ottimizzare le risorse e creare applicazioni più leggere, veloci e sostenibili. Scopriremo come eliminare il superfluo, migliorare le performance e garantire un'esperienza utente accessibile a tutti.\r\n\r\nAttraverso esempi concreti e casi studio di aziende come GitHub, Netflix e Airbnb, vedremo come il ritorno a tecniche più semplici e native possa portare a risultati sorprendenti. Analizzeremo il \"costo nascosto\" del JavaScript e il mito del Virtual DOM, e discuteremo di come l'accessibilità e la sostenibilità siano pilastri fondamentali di questo approccio.\r\n\r\nSe pensate che \"più sia meglio\", preparatevi a cambiare idea: il futuro del web è Lean.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "05ed4b4a-5d57-4602-bb4e-8d55efad3e0f"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Accepted",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "872780",
+
+            "title": "Impatto Digitale: Riflessioni sull'Utilizzo Responsabile delle Innovazioni Tecnologiche",
+
+            "description": "Proviamo ad immaginare una realtà in cui per effettuare una qualsiasi operazione digitale dovessimo pagare il nostro impatto ambientale. Effettueremmo lo stesso numero di operazioni oppure ci rifletteremmo qualche secondo in più? La tecnologia ci affascina, ci assorbe e ci fa pensare che qualsiasi attività svolgiamo su Internet sia in parte astratta; inviare o ricevere un’email, guardare un video su Youtube o una serie tv su un sito di streaming qualsiasi, caricare una nostra foto sui social, scrivere un post su LinkedIn, sono tutte operazioni con un impatto ambientale. \r\nL’esplosione dell’Intelligenza artificiale, dei LLM e dei tool come ChatGPT & Co. ha dato più immediato accesso ad operazioni il cui impatto ambientale è ancora più importante. Tuttavia, la tecnologia, l’IA, non sono IL problema. La loro facile reperibilità e l’irresponsabile utilizzo di certi strumenti e risorse come fossero semplici giocattoli lo è. In questo talk partiremo da qualche dato relativo all’impatto ambientale degli strumenti sopracitati e proveremo a capire in che misura un utilizzo più consapevole delle innovazioni che ci circondano possa invece aiutarci a raggiungere un risultato migliore, per il nostro pianeta e per noi. ",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "bc261ce0-3d86-40a4-9c62-764d0115dc92"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Accepted",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "869662",
+
+            "title": "InforMagica - Grimorio per Maghi Moderni",
+
+            "description": "Pensa a quanto è figo programmare. Ti siedi davanti a una tastiera e crei qualcosa che fino a pochi minuti fa non esisteva. Un’idea, un concetto, un insieme di istruzioni che prendono vita in un computer e fanno cose che prima erano impossibili.  \r\n\r\nE allora perché la maggior parte dei programmatori sembrano annoiati, stressati, stanchi del loro lavoro? Quando è successo che la magia si è trasformata in routine?  \r\n\r\nGandalf si è mai stancato di volare sulle ali delle aquile?  \r\nHarry Potter si è mai annoiato di evocare un maestoso Cervo dalla sua bacchetta?  \r\n\r\nQuesto talk vuole proporre un modo diverso di vedere la programmazione, un framework mentale per riscoprire la gioia dell’atto creativo. Partendo da una riflessione sulla linguistica e sul potere delle parole, arriveremo a tracciare parallelismi (chiari, ma forse non così evidenti) tra magia e programmazione.  \r\n\r\nL’obiettivo? Capire perché abbiamo scelto di fare questo lavoro e, magari, riscoprire un po’ di quel senso di meraviglia che ci ha portati fin qui.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "ea89b80b-e4d0-4026-a427-f2c50ac279ff"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Accepted",
+
+            "isInformed": true,
+
+            "isConfirmed": true
+
+        },
+
+        {
+
+            "id": "850564",
+
+            "title": "Is this the real life, or are these just utility types in TypeScript?",
+
+            "description": "Ladies and gentlemen, TypeScript’s utility types are the Freddie Mercury of static typing: bold, versatile, and absolutely iconic. In this session, we’ll take you on a Greatest Hits 25 minutes tour of every utility type, from Partial to OmitThisParameter going thru Capitalize and many more. \r\n\r\nAlong the way, expect some demos and practical examples.\r\n\r\nBy the end of this talk, you’ll be a type champion, wielding utility types like the rockstar developer you were born to be",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "c14aa869-f2f1-4242-8425-c7aa9998ea89"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "862324",
+
+            "title": "Java in the Green Cloud: Eco-Friendly Development with Kubernetes",
+
+            "description": "The tech industry is quietly burning 3.7% of global carbon emissions—enough to rival the aviation industry!\r\n\r\nSurprised? So are we, and guess what? Our code is part of the problem. While optimizing for speed and scalability, we often forget that wasteful apps consume energy like an all-you-can-eat buffet.\r\n\r\nIn this session, we’ll show you how to build greener Java applications in Kubernetes without sacrificing performance. Get ready to:\r\n\r\nTame your resource usage with Kubernetes tools like resource limits and autoscaling.\r\nWrite smarter Java code that sips energy instead of chugging it.\r\nSpot hidden inefficiencies and optimize for a smaller carbon footprint.\r\n\r\nExpect practical tips, fun analogies, and live examples that make sustainable development less “doom and gloom” and more “cool and efficient.” \r\n\r\nI will help you prove that clean code can also be green code. The planet (and your cloud bill) will thank you!",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "d0e6b397-e663-46f1-ba2f-70472049af6e"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "857720",
+
+            "title": "Open Source: la tua occasione per far vedere che sai programmare (o almeno che ci provi)",
+
+            "description": "In questo intervento vorrei raccontarti cos'è l'open source, quali sono i suoi vantaggi e come puoi iniziare a partecipare, anche se sei alle prime armi. Ti diró come ho iniziato io, ti darò consigli pratici su come trovare progetti interessanti, come comunicare con la comunità, come segnalare bug e come proporre modifiche.\r\nNon importa se sei un programmatore esperto o un semplice appassionato: l'open source ha bisogno di tutti!",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "2c7a918d-1e38-47b4-95fb-8c2975992ac3"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "869649",
+
+            "title": "Riduciamo il sovraccarico cognitivo con le pratiche Extreme Programming",
+
+            "description": "in questo talk mi piacerebbe partire con l'idea che molti sviluppatori non sono tanto produttivi a causa del sovraccarico cognitivo che proviene da varie fonti, sia quelle esterne (come le distrazioni) sia quelle del lavoro stesso (come la complessità di un architettura, una libreria o del dominio). Per poi arrivare a sviscerare alcune pratiche dell'Extreme programming per spiegare come queste possono aiutare a ridurre il carico cognitivo e farci sentire più produttivi e nel flow. in breve andrò a toccare argomenti come pair programming, test driven development, tecnica del pomodoro, legge di conway ecc... farò un talk simile ma in formato ignite (5 minuti, 20 slide da 15 secondi) a Zurigo il 13 Marzo in Inglese, e siccome per fare questo talk ho studiato un pò di cose, mi piacerebbe dedicare più tempo a questo argomento, in italiano.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "b0040a5d-8aea-46ff-b1d0-805f8686c36b"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "867156",
+
+            "title": "Serverless in Azione: non dobbiamo per forza andare su Marte!",
+
+            "description": "Hai mai pensato di utilizzare la tecnologia serverless per risolvere problemi concreti nella tua vita quotidiana? È come avere un esercito di assistenti invisibili che lavorano 24/7! \r\n\r\nIn questo talk, condividerò cinque progetti, mescolando momenti divertenti con dimostrazioni concrete di come questi componenti possano collaborare per creare soluzioni sorprendentemente efficaci.\r\n\r\nChe tu sia un principiante curioso o uno sviluppatore esperto, questo talk ti mostrerà i componenti serverless come mattoncini di una cassetta degli attrezzi digitale, pronti per essere assemblati in modi creativi. Sei pronto ad essere ispirato?",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "5dd18c62-6c9d-410b-becf-81dacef38959"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "856977",
+
+            "title": "Sits e Fits: Pragmatismo nell'architettura software.",
+
+            "description": "Nel mondo dello sviluppo software, i concetti di regole, principi e best practice costituiscono la spina dorsale del nostro lavoro. Questi rappresentano gli elementi fondamentali - ciò che si stabilisce (sits) - che guidano le decisioni, standardizzano i processi e garantiscono la scalabilità di sistemi complessi. Funzionano come ancore, offrendo stabilità e una comprensione condivisa tra team e progetti.\r\n\r\nEppure, nessuna regola o pratica esiste in un vuoto. Ci sono momenti in cui il percorso stabilito non è il percorso migliore. Il contesto cambia, le priorità si modificano e a volte la soluzione sta nell’uscire dai confini. Questi sono i momenti in cui gli adattamenti specifici al contesto - fits - diventano necessari per risolvere sfide uniche. La tensione tra sits e fits è il cuore di un’architettura software pragmatica.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "f1391d8e-915c-469a-bdc8-90b26ee09df0"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Accepted",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "872019",
+
+            "title": "SQL NULL: l'artefatto entropico del vuoto mistico",
+
+            "description": "Se fossimo nel mondo di Dungeons and Dragons e ricevessimo come ricompensa il SQL NULL esso sarebbe sicuramente un artefatto leggendario.\r\nMa perché? Cosa si cela dietro al SQL NULL da renderlo tanto leggendario e difficile da maneggiare? In questa avventura cercheremo di capire cosa voglia dire aver a che fare con l'artefatto del vuoto mistico e come gestirlo nei nostri database, cosí da riuscire a finire la quest ancora una volta!",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "7630ae3a-6990-4342-8008-8a8a47007a27"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
+        },
+
+        {
+
+            "id": "872281",
+
+            "title": "The future is deferrable: Mastering Angular’s @defer and Incremental Hydration",
+
+            "description": "Performance and user experience are critical in modern web development, and Angular’s @defer directive is here to revolutionize content loading. In this talk, we’ll explore the powerful combination of Deferrable Views and Incremental Hydration introduced in Angular v19.\r\n\r\nYou’ll learn how to:\r\n\r\n- Use @defer to optimize content rendering with triggers\r\n- Leverage Incremental Hydration to deliver seamless interactivity for SSR applications\r\n- Avoid common pitfalls and embrace best practices to maximize performance\r\n\r\nThrough real-world examples, this session will give you actionable insights to enhance both developer experience and application efficiency.",
+
+            "startsAt": null,
+
+            "endsAt": null,
+
+            "isServiceSession": false,
+
+            "isPlenumSession": false,
+
+            "speakers": [
+
+                "46baee89-6771-4806-b4cd-9afd9bc68637"
+
+            ],
+
+            "categoryItems": [],
+
+            "questionAnswers": [],
+
+            "roomId": null,
+
+            "liveUrl": null,
+
+            "recordingUrl": null,
+
+            "status": "Declined",
+
+            "isInformed": true,
+
+            "isConfirmed": false
+
         }
+
     ],
+
     "speakers": [
+
         {
-            "id": "00000000-0000-0000-0000-000000000004",
-            "firstName": "Top",
-            "lastName": "Speaker 1",
-            "bio": "Top Speaker 1 is a renowned cybersecurity expert with over 25 years of experience in protecting critical infrastructure and sensitive data. They have worked with leading global organizations to develop and implement robust security strategies. Known for their deep technical knowledge and strategic vision, Top Speaker 1 is a trusted advisor and frequent speaker at international security conferences. Outside of their professional endeavors, they are an avid traveler, a passionate advocate for digital privacy, and enjoy mentoring the next generation of cybersecurity professionals.",
-            "tagLine": "Visionary Technologist and Thought Leader",
-            "profilePicture": "https://sessionize.com/image/8db9-400o400o1-test4.jpg",
-            "isTopSpeaker": true,
-            "links": [
-                {
-                    "title": "Twitter",
-                    "url": "https://twitter.com/sessionizecom",
-                    "linkType": "Twitter"
-                },
-                {
-                    "title": "LinkedIn",
-                    "url": "http://linkedin.com/in/domagojpa",
-                    "linkType": "LinkedIn"
-                }
+
+            "id": "1e5320cf-0582-4010-b876-06c1e864233a",
+
+            "firstName": "Adriano",
+
+            "lastName": "Sanges",
+
+            "bio": "Data leader previously at Walmart, Workday and Bank of America, with 12 years of experience in the business and a knack for building data platforms",
+
+            "tagLine": "Engineering Manager, Data and Analytics at Didomi",
+
+            "profilePicture": "https://sessionize.com/image/4194-400o400o1-N5RrjUZc9giuxRvpQux7rV.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                857803
+
             ],
-            "sessions": [729575],
-            "fullName": "Top Speaker 1",
+
+            "fullName": "Adriano Sanges",
+
             "categoryItems": [],
+
             "questionAnswers": []
+
         },
+
         {
-            "id": "00000000-0000-0000-0000-000000000008",
-            "firstName": "Top",
-            "lastName": "Speaker 2",
-            "bio": "Top Speaker 2 is a visionary leader in the field of artificial intelligence and machine learning. With over 20 years of experience, they have spearheaded groundbreaking research and development projects that have significantly advanced the industry. Their work has been recognized globally, earning them numerous awards and accolades. Top Speaker 2 is a prolific author and a sought-after keynote speaker at major tech conferences. When not immersed in AI, they enjoy teaching, writing, and exploring the intersection of technology and society.",
-            "tagLine": "Dynamic PR Specialist and Communications Expert",
-            "profilePicture": "https://sessionize.com/image/e987-400o400o1-test8.jpg",
-            "isTopSpeaker": true,
-            "links": [],
-            "sessions": [729579],
-            "fullName": "Top Speaker 2",
-            "categoryItems": [],
-            "questionAnswers": []
-        },
-        {
-            "id": "00000000-0000-0000-0000-000000000002",
-            "firstName": "Top",
-            "lastName": "Speaker 3",
-            "bio": "Top Speaker 3 is a seasoned software engineer with a deep expertise in full-stack development. With over 15 years in the tech industry, they have contributed to numerous high-profile projects, specializing in creating robust and scalable web applications. Known for their innovative problem-solving skills and dedication to continuous learning, Top Speaker 3 is a frequent speaker at international tech conferences. Outside of work, they are passionate about coffee, gourmet cooking, and exploring the latest trends in technology.",
-            "tagLine": "Innovative Tech Visionary and Mentor",
-            "profilePicture": "https://sessionize.com/image/854e-400o400o1-test2.jpg",
-            "isTopSpeaker": true,
-            "links": [],
-            "sessions": [729573],
-            "fullName": "Top Speaker 3",
-            "categoryItems": [],
-            "questionAnswers": []
-        },
-        {
-            "id": "00000000-0000-0000-0000-000000000006",
-            "firstName": "Top",
-            "lastName": "Speaker 4",
-            "bio": "Top Speaker 4 is a highly regarded web development expert with a passion for pioneering new technologies. With over a decade of experience in the tech industry, they have been at the forefront of numerous innovative projects, pushing the boundaries of what is possible on the web. Known for their dynamic approach and ability to solve complex problems, Top Speaker 4 is a sought-after speaker at tech conferences worldwide. When not coding, they enjoy exploring new tech trends, mentoring aspiring developers, and indulging in their love for gourmet cuisine.",
-            "tagLine": "Pioneering Innovator in Tech Solutions",
-            "profilePicture": "https://sessionize.com/image/6d64-400o400o1-test6.jpg",
-            "isTopSpeaker": true,
-            "links": [],
-            "sessions": [729577],
-            "fullName": "Top Speaker 4",
-            "categoryItems": [],
-            "questionAnswers": []
-        },
-        {
-            "id": "00000000-0000-0000-0000-000000000001",
-            "firstName": "John",
-            "lastName": "Jackson",
-            "bio": "John is a seasoned software engineer with over 15 years of experience in the tech industry. He has worked with leading tech companies, contributing to innovative projects in AI, cloud computing, and cybersecurity. John is a passionate advocate for open-source software and has been an active contributor to several high-profile projects. He frequently speaks at international conferences, sharing his insights on emerging technologies and best practices in software development. In his free time, John enjoys mentoring young developers and exploring the latest trends in tech.",
-            "tagLine": "Innovative Tech Leader and AI Enthusiast",
-            "profilePicture": "https://sessionize.com/image/e863-400o400o1-test1.jpg",
+
+            "id": "d0e6b397-e663-46f1-ba2f-70472049af6e",
+
+            "firstName": "Aicha",
+
+            "lastName": "Laafia",
+
+            "bio": "Aicha Laafia, a Java software engineer with a love for coding, an interest in sustainability, and a commitment to empowering women in tech.\r\n\r\nI am a Women Techmakers and Girls Code ambassador, an IAmRemarkable facilitator, a member of the Moroccan Association of Computing Science and part of Jetbrains  Community Contributor program.\r\n\r\n\r\n I focus on creating software with minimal environmental impact while mentoring and supporting women in technology.\r\n\r\nWhen I’m not coding, I enjoy exploring delicious food, phone photography, and watching Formula 1.",
+
+            "tagLine": "Java Software engineer ",
+
+            "profilePicture": "https://sessionize.com/image/4ef7-400o400o1-sEwhWH5iiypd3tNVc8g7gU.jpg",
+
             "isTopSpeaker": false,
-            "links": [
-                {
-                    "title": "Twitter",
-                    "url": "https://twitter.com/sessionizecom",
-                    "linkType": "Twitter"
-                }
+
+            "links": [],
+
+            "sessions": [
+
+                862324
+
             ],
-            "sessions": [729572],
-            "fullName": "John Jackson",
+
+            "fullName": "Aicha Laafia",
+
             "categoryItems": [],
+
             "questionAnswers": []
+
         },
+
         {
-            "id": "00000000-0000-0000-0000-000000000005",
-            "firstName": "Lucas",
-            "lastName": "Test",
-            "bio": "Music evangelist. Coffee junkie. Twitter trailblazer. Total food nerd. Student. General creator. Falls down a lot.",
-            "tagLine": "V.I.P.",
-            "profilePicture": "https://sessionize.com/image/b36e-400o400o1-test5.jpg",
+
+            "id": "2c7a918d-1e38-47b4-95fb-8c2975992ac3",
+
+            "firstName": "Andrea",
+
+            "lastName": "Manzini",
+
+            "bio": "Bazzico da qualche decade nel mondo IT, sono appassionato di open source e credo fermamente nel valore della condivisione della conoscenza.",
+
+            "tagLine": "Andrea Manzini - Senior SW Engineer @ SUSE",
+
+            "profilePicture": null,
+
             "isTopSpeaker": false,
+
             "links": [],
-            "sessions": [729576],
-            "fullName": "Lucas Test",
-            "categoryItems": [],
-            "questionAnswers": []
-        },
-        {
-            "id": "00000000-0000-0000-0000-000000000007",
-            "firstName": "Noah",
-            "lastName": "Test",
-            "bio": "Friend of animals everywhere. Freelance twitter practitioner. Gamer. Subtly charming food geek.",
-            "tagLine": "Everyday normal guy",
-            "profilePicture": "https://sessionize.com/image/cce3-400o400o1-test7.jpg",
-            "isTopSpeaker": false,
-            "links": [],
-            "sessions": [729578],
-            "fullName": "Noah Test",
-            "categoryItems": [],
-            "questionAnswers": []
-        },
-        {
-            "id": "00000000-0000-0000-0000-000000000003",
-            "firstName": "Olivia",
-            "lastName": "Test",
-            "bio": "Hipster-friendly alcohol aficionado. Avid twitter lover. Explorer. Hardcore coffee buff.",
-            "tagLine": "ABC, DEF, GHI",
-            "profilePicture": "https://sessionize.com/image/d7ef-400o400o1-test3.jpg",
-            "isTopSpeaker": false,
-            "links": [],
-            "sessions": [729574],
-            "fullName": "Olivia Test",
-            "categoryItems": [],
-            "questionAnswers": []
-        },
-        {
-            "id": "00000000-0000-0000-0000-000000000000",
-            "firstName": "Sophia",
-            "lastName": "Test",
-            "bio": "Sophia is a renowned software architect with over a decade of experience in developing scalable web applications. She has a deep passion for cloud computing and has led numerous successful projects in the tech industry. Sophia is also a prolific writer and speaker, known for her engaging presentations at major tech conferences around the world. When she's not coding, Sophia enjoys hiking, photography, and contributing to open-source projects.",
-            "tagLine": "CEO / Contoso",
-            "profilePicture": "https://sessionize.com/image/6447-400o400o1-test0.jpg",
-            "isTopSpeaker": false,
-            "links": [
-                {
-                    "title": "Twitter",
-                    "url": "https://twitter.com/sessionizecom",
-                    "linkType": "Twitter"
-                }
+
+            "sessions": [
+
+                857720
+
             ],
-            "sessions": [729571],
-            "fullName": "Sophia Test",
+
+            "fullName": "Andrea Manzini",
+
             "categoryItems": [],
+
             "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "f4e6ee8e-93e0-4f71-b4b6-db6cefbaa27e",
+
+            "firstName": "Anisat",
+
+            "lastName": "Ahmed",
+
+            "bio": "Anisat Ahmed is a web accessibility advocate and experienced frontend developer, specializing in creating accessible, user-friendly web interfaces. With 4 years of experience, she shares her expertise through speaking engagements and writing technical articles, promoting inclusive design in web development.",
+
+            "tagLine": "Accessibility Specialist | Technical Writer",
+
+            "profilePicture": "https://sessionize.com/image/8f64-400o400o1-UmUpxGWBqX8CU6jCiMUw9W.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                854096
+
+            ],
+
+            "fullName": "Anisat Ahmed",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "b0040a5d-8aea-46ff-b1d0-805f8686c36b",
+
+            "firstName": "Antonio",
+
+            "lastName": "Alvino",
+
+            "bio": "I’m a passionate advocate for cloud-native application development, particularly using Spring Boot. With a background that blends both DevOps and backend development, I’ve spent my career building efficient, scalable solutions while driving automation and optimization throughout the software lifecycle.\r\nI’m deeply committed to Agile principles and software craftsmanship, with a focus on automating unit, integration, and end-to-end testing, and ensuring high-quality code delivery. My passion for cloud-native applications is rooted in the belief that Spring Boot offers a powerful framework for developing robust, modern applications that are well-suited for today’s distributed cloud environments.",
+
+            "tagLine": "DevOps Engineer",
+
+            "profilePicture": "https://sessionize.com/image/6026-400o400o1-91UDD5TWu94reMvAvmMbsy.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                869649
+
+            ],
+
+            "fullName": "Antonio Alvino",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "8b37d320-c3c8-4fba-9186-9af9025c284d",
+
+            "firstName": "Daniele",
+
+            "lastName": "Ponzo",
+
+            "bio": "Daniele Ponzo is a seasoned Business English Coach with over 13 years of experience in IT and 8 years in teaching English. He specializes in helping IT professionals enhance their communication skills. With a master’s degree in Sociology and Mass Media and a background in project leadership roles at Xerox and the Italian Ministry of Education, Universities and Research, Daniele combines technical expertise with language coaching. He has successfully worked with 300+ students, achieving a 98% success rate in Cambridge exam preparations. Daniele is passionate about coaching and developing professionals to reach their full potential. \r\nHis recent Video Podcast Series \"The Non-Native Leader\" explores the stories of global leaders who learned English as a second language.",
+
+            "tagLine": "Business English Coach for IT Professionals",
+
+            "profilePicture": "https://sessionize.com/image/3086-400o400o1-WuERmNnRyZPKvy3CDJ1trC.png",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                859507
+
+            ],
+
+            "fullName": "Daniele Ponzo",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "ee1e93a6-c729-4b2d-9795-72a29c1e5024",
+
+            "firstName": "Davide",
+
+            "lastName": "Di Pumpo",
+
+            "bio": "I design and develop digital products. Throughout my career, I have gained experience in local and international contexts, collaborating with publishing houses, Fintech companies, and large-scale e-commerce platforms.\r\n\r\nOne of my passions is creating efficient design systems that enhance user experiences and innovatively tackle their problems.\r\n\r\nSince October 2015, I have been one of the organisers of the Front End meet-up in Milan, where I prepare events and give speeches. Sometimes, I speak at conferences like CSSDay, WebDay, or Codemotion and various meet-ups like MilanoJS, THESIGNof, or FEVR. I come from a family of teachers and could not wholly escape this legacy, so I have also taught in postgraduate schools.\r\n\r\nAnd if you want some info outside the work sphere, I like comics, manga, and every sort of graphic novel, and, as a real geek, video games! I am also the father of two.",
+
+            "tagLine": "CSS addict",
+
+            "profilePicture": "https://sessionize.com/image/02c2-400o400o1-Wfujv36kHX9hMM67JVVysW.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                857844
+
+            ],
+
+            "fullName": "Davide Di Pumpo",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "60158436-45e2-4d9d-b885-d41f5e4d4039",
+
+            "firstName": "Davide",
+
+            "lastName": "Passafaro",
+
+            "bio": "I'm a Senior Frontend Engineer at awork and the community lead of GDG Roma Città and Angular Rome Community.\r\n\r\nAs an Angular enthusiast, I enjoy speaking at tech communities and conferences, as well as writing articles on my Medium blog.\r\n\r\nWhen I’m offline, I like playing board games, practicing archery, solving escape rooms, and creating memes.",
+
+            "tagLine": "Senior Frontend Engineer @ awork",
+
+            "profilePicture": "https://sessionize.com/image/0189-400o400o1-SiwJvDJWhQ8qPCoY8Yfa5m.png",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                872243
+
+            ],
+
+            "fullName": "Davide Passafaro",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "16ad48b9-88b5-4ed4-b705-fc9f93aaa867",
+
+            "firstName": "Davide",
+
+            "lastName": "Pedron",
+
+            "bio": "Sviluppatore, per lavoro e passione, non sa bene dove finisce uno e comincia l'altro. Improvvisatore, inguaribile ottimista, maestro del \"una-soluzione-si-trova\". Sul suo PC le cose non funzionano, ma in produzione sì.\r\nIl formaggio è vita.",
+
+            "tagLine": "Developing software and good mood since 2009 | Happy Developer",
+
+            "profilePicture": "https://sessionize.com/image/ca0b-400o400o1-gSACidEBQPK4ZXopSBBVh.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                857392
+
+            ],
+
+            "fullName": "Davide Pedron",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "05ed4b4a-5d57-4602-bb4e-8d55efad3e0f",
+
+            "firstName": "Emiliano",
+
+            "lastName": "Pisu",
+
+            "bio": "Hi 👋 Folks!\r\nI'm Emiliano Pisu, Frontend Developer, Mentor, Speaker.\r\n\r\nYour friendly neighborhood UI/UX Engineer.\r\n\r\nFollowing my coding addiction during my career, I always kept updated concerning software development and related trends, focusing on: UI, UX, Accessibility, Responsiveness, Compatibility, Scalability, Maintainability.\r\n\r\nMy primary goal is to build accessible pixel perfect UIs and stunning UXs.\r\n\r\nMy basic approach is to develop with 0-dependencies: this boosts creativity, studying, experimenting, knowledge; resulting in trends following solutions which are carefully tailored on client/stakeholders needs.\r\n\r\nIn conclusion I'm your man if you need a bridge between Design and Development.\r\nI breath to simplify the DevX of my colleagues: that's why I talk about the core web vanilla technologies.",
+
+            "tagLine": "Frontend Developer, Mentor, Speaker.",
+
+            "profilePicture": "https://sessionize.com/image/d1e7-400o400o1-7KMYUaNPjYLwyCyFaWBFCv.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                872265
+
+            ],
+
+            "fullName": "Emiliano Pisu",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "b229e20c-1124-4560-b5c4-f03c5b9873c5",
+
+            "firstName": "Emily",
+
+            "lastName": "Maina",
+
+            "bio": "Emily Maina is a Nairobi-based entrepreneur and computer scientist specializing in Artificial Intelligence, Linux administration, and DevOps engineering. As the founder of Pemanis Solutions, she integrates cutting-edge technologies to enhance e-commerce platforms and drive business success.\r\n\r\nEmily is also a dynamic public speaker, known for making complex technologies accessible and actionable. She recently delivered a compelling 45-minute presentation at Rendercon 2024 in Nairobi, Kenya, on the topic \"Team Leadership & Soft Skills: Building High-Performance Teams in the Modern Era.\" Her presentation highlighted the crucial role of soft skills in IT job requirements and their impact on the success of global companies such as Netflix, Microsoft, Salesforce, and Spotify. Drawing from her experience as a startup founder leading remote teams, Emily shared insights into overcoming challenges through effective communication, emotional intelligence, and strategic thinking.",
+
+            "tagLine": "Founder & Digital Marketing Strategist: Inspiring Success through AI-Driven Insights, Dynamic Public Speaking, and Expert Training in Digital Marketing, Linux, and Career Development.",
+
+            "profilePicture": "https://sessionize.com/image/d862-400o400o1-TwXBvJBJVbycEyXYN54pcz.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                867276
+
+            ],
+
+            "fullName": "Emily Maina",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "3135968f-7cdf-434f-9916-e4e192958f0d",
+
+            "firstName": "Federico",
+
+            "lastName": "Guerinoni",
+
+            "bio": "Italian software engineer working in startups, passionate about the art of coding and discussing tech topics. I specialize in distributed systems, with Go, Rust, and DevOps tools as my daily teammates. I have a deep love for databases and contributing to open-source projects.",
+
+            "tagLine": "Software Engineer",
+
+            "profilePicture": "https://sessionize.com/image/263c-400o400o1-9ktVeDA4kRFoqfVCm3E4ip.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                857307
+
+            ],
+
+            "fullName": "Federico Guerinoni",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "5dd18c62-6c9d-410b-becf-81dacef38959",
+
+            "firstName": "Francesco",
+
+            "lastName": "Lerro",
+
+            "bio": "Un architetto software in giro da così tanto tempo che ha visto nascere e morire più tecnologie di quante ne possa ricordare. Ha costruito cose che milioni di persone usano quotidianamente, probabilmente anche mentre leggete questo. Attivo nelle community tech locali, dove cerca di convincere altri nerd che il cloud non è solo \"il computer di qualcun altro\". Quando non sta disegnando architetture sui tovaglioli o spiegando a sua nonna cos'è un microservizio, lo trovate a parlare a conferenze tech, cercando disperatamente di far ridere il pubblico con battute sui database. La sua missione? Usare la tecnologia per risolvere problemi reali, o almeno questo è quello che racconta alla sua famiglia per giustificare il tempo passato davanti allo schermo.",
+
+            "tagLine": "Software Architect at TheFork, ",
+
+            "profilePicture": "https://sessionize.com/image/e8ea-400o400o1-Yc7zMwq1WsXkGqgxcZSYcn.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                867156
+
+            ],
+
+            "fullName": "Francesco Lerro",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "c14aa869-f2f1-4242-8425-c7aa9998ea89",
+
+            "firstName": "Francesco",
+
+            "lastName": "Napoletano",
+
+            "bio": "I'm Francesco, 44 years old, staff software engineer specialized in web applications living in Giussano, Italy.\r\n\r\nI have ~20 years experience in frontend and backend technologies. I've worked in international teams for many different companies (eBay, Pirelli, Subito, currently @ sysdig)",
+
+            "tagLine": "Staff Software Engineer @ sysdig",
+
+            "profilePicture": "https://sessionize.com/image/a73f-400o400o1-VA8VzC2eSADMJEWcgUVPp5.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                850564
+
+            ],
+
+            "fullName": "Francesco Napoletano",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "46baee89-6771-4806-b4cd-9afd9bc68637",
+
+            "firstName": "Giorgio",
+
+            "lastName": "Galassi",
+
+            "bio": "Giorgio is a Senior Frontend Developer who has been working in the IT world for almost 8 years. \r\nHis main focus is Angular, but he winks a little at all Frontend technologies because you never know. \r\n\r\nInvolved in the community world he's proudly co-leading the Google Developer Group Roma Città and trying to take his place as a speaker and writer.",
+
+            "tagLine": "Senior Frontend Developer @Onpier Co-Lead @ GDG Roma Città",
+
+            "profilePicture": "https://sessionize.com/image/3e98-400o400o1-MneG4CuRYKw8xqbuAxQfsu.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                872281
+
+            ],
+
+            "fullName": "Giorgio Galassi",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "15a73882-282a-40b3-a555-ba22847cee40",
+
+            "firstName": "Guido",
+
+            "lastName": "Porcaro",
+
+            "bio": "Guido, commonly known as \"El Gordito Salsero\", is a Front End Engineer who possesses excellent skills in JavaScript/TypeScript.\r\n\r\nDuring his leisure time, Guido indulges in Salsa dancing and explores the open road on his motorcycle.\r\n\r\nAdditionally, Guido has a deep passion for coaching and mentoring junior professionals, aiding them in their personal and professional growth.",
+
+            "tagLine": "Staff Software Engineer at Zendesk",
+
+            "profilePicture": "https://sessionize.com/image/ecba-400o400o1-6QfBiMkbE5rbcxvTLyuG1.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                850750,
+
+                850357,
+
+                850748
+
+            ],
+
+            "fullName": "Guido Porcaro",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "5bc3d9b1-5234-41d8-9156-2cb8ee227402",
+
+            "firstName": "Kristian",
+
+            "lastName": "Lentino",
+
+            "bio": "Kristian is a Scala dev during the day, working for a fully remote company called Commercetools, and Co-founder by night trying to create an app that allows users to read comics everywhere they go!\r\n ",
+
+            "tagLine": "Backend Software Engineer",
+
+            "profilePicture": "https://sessionize.com/image/7807-400o400o1-Qwx1n4GtuoEGXk36cpJ4mw.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                850291
+
+            ],
+
+            "fullName": "Kristian Lentino",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "54df91bd-7e2e-4188-bc5f-0e9f47679738",
+
+            "firstName": "Lara",
+
+            "lastName": "Lombardi",
+
+            "bio": "Mi occupo di marketing e comunicazione per Apropos, azienda che organizza conferenze tech e corsi di formazione sui temi principali dello sviluppo web.\r\nSono responsabile della comunicazione di GrSUP, la community tech che  riunisce  7000 persone tra deveoper, designer e DevOps.\r\nOrganizzo corsi di formazione all'uso delle tecnologie digitali e al bilanciamento della presenza online.\r\n",
+
+            "tagLine": "Marketing & Communication Manager @ Apropos",
+
+            "profilePicture": "https://sessionize.com/image/6615-400o400o1-DuPomJWfqKQcACAk11XQEE.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                872189
+
+            ],
+
+            "fullName": "Lara Lombardi",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "ea344c2f-e20a-4995-8bf3-5503ab2a7ad1",
+
+            "firstName": "Lorenzo",
+
+            "lastName": "Pieri",
+
+            "bio": "It's never easy to describe oneself, especially when one is interested in so many different topics and fields and I guess that says something about who I am afterall. I find it fun and entertaining to teach difficult subjects through exotic methods and stories and people seem to also have fun while I do so.\r\n\r\nI believe in the union between science and human values (read fun) and I often work and participate in non-profit organization and projects which aim to bring culture and scientific knowledge.",
+
+            "tagLine": "Senior Full Stack Software Engineer @ Birdie - Open Source @ 404answernotfound & Schrodinger's Hat",
+
+            "profilePicture": "https://sessionize.com/image/9d5b-400o400o1-frbDnDJWJ6m7HFK52f1H6r.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                850569
+
+            ],
+
+            "fullName": "Lorenzo Pieri",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "a8dd4ebe-51b5-4a49-b713-24934b9d2f57",
+
+            "firstName": "Luca",
+
+            "lastName": "Giuberti",
+
+            "bio": "Tech Lead and technology passionate with a lifelong passion for coding - As a professional programmer, I believe that passion and methodology combined with teamwork are the most effective tools to deliver value to the customer.\r\n\r\nMy focus areas are software design with particular attention on TDD and testing in general.",
+
+            "tagLine": "Senior Developer Consultant @ Thoughtworks",
+
+            "profilePicture": "https://sessionize.com/image/1265-400o400o1-be-51b5-4a49-b713-24934b9d2f57.98fcbd4b-b33a-4b08-ac32-d4b12a258dbd.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                857554
+
+            ],
+
+            "fullName": "Luca Giuberti",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "ea89b80b-e4d0-4026-a427-f2c50ac279ff",
+
+            "firstName": "Luca",
+
+            "lastName": "Tomasino",
+
+            "bio": "Ha scoperto i computer a 8 anni, giocando a Dionakra su Windows Millennium.  \r\nAppassionato di tecnologia da sempre, a 20 anni ha cercato qualcosa di diverso, scappando quasi letteralmente per unirsi al circo.  \r\n\r\nIl COVID lo ha riportato davanti a uno schermo, dove ha imparato C# per creare un gioco in Unity: così è nato Voidlingz, il suo progetto di debutto. Ha venduto 7 copie(nonostante fosse gratis) tra amici e parenti, prima di svanire nel nulla, inghiottito dal Play Store.  \r\n\r\nMa la passione non si è spenta. Ha continuato a studiare fino a diventare sviluppatore nell’ecosistema SAP (piangete per me).  \r\n\r\nSempre in movimento, con la testa tra le nuvole ma i piedi ben piantati a terra, sta ancora cercando il suo posto nel mondo tech.  \r\nDopo aver partecipato alle sue prime conferenze, si è innamorato dell’idea di parlare a un pubblico e condividere la sua visione… ed eccoci qui.",
+
+            "tagLine": "Fullstack Developer",
+
+            "profilePicture": "https://sessionize.com/image/09e1-400o400o1-SkDvce3ALPTwF4iryr64ck.png",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                869662
+
+            ],
+
+            "fullName": "Luca Tomasino",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "14c6ae82-121f-457e-a04a-f6aefb52b078",
+
+            "firstName": "Ludovico",
+
+            "lastName": "Besana",
+
+            "bio": "Ludovico, born as a Full Stack Developer, discovered his true passion for quality later in his career. With a background in Full Stack Development, he possessed a strong technical foundation and a deep understanding of software systems.\r\nAs an Automation and Open Source enthusiast, Ludovico recognized the power of efficient and reliable testing methodologies. He understood the importance of ensuring that software products met the highest standards of performance, functionality, and user experience. He works as a Senior Test Engineer.",
+
+            "tagLine": "Senior Test Engineer @Nearform ",
+
+            "profilePicture": "https://sessionize.com/image/6fcf-400o400o1-aDkpJzhmQV6KVRa2E5FwEo.png",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                872641
+
+            ],
+
+            "fullName": "Ludovico Besana",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "f1391d8e-915c-469a-bdc8-90b26ee09df0",
+
+            "firstName": "Michael",
+
+            "lastName": "Di Prisco",
+
+            "bio": "A decade in the Development field, still trying to get my head around it. Full-Stack Developer with a strong experience in Back-End Development and passionate about all things JS.",
+
+            "tagLine": "Tech Lead @ Jointly",
+
+            "profilePicture": "https://sessionize.com/image/57cc-400o400o1-XewKK5vF9Uug2fMRajH2oN.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                856977
+
+            ],
+
+            "fullName": "Michael Di Prisco",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "8e0c85d5-046d-488f-90b7-6fe2cd1987da",
+
+            "firstName": "Michele",
+
+            "lastName": "Mauro",
+
+            "bio": "Sviluppatore appassionato da più tempo di quanto voglia ammettere, ho visto computer, software, strumenti e metodi di tante forme e dimensioni. Di alcuni ho un felice ricordo, altri cerco di tenerli alla larga. Siccome mi piace parlare e sentire altri parlare di informatica e programmazione, ho partecipato (nel pubblico, nell'organizzazione o come relatore) a diverse conferenze, user group, classi universitarie e meetup, ed in alcune di queste ho parlato della mia esperienza e delle mie opinioni. Di solito lavoro in Java, da qualche tempo anche in Kotlin, e ho avuto la fortuna di scrivere un po' di Scala nel passato. Per qualche mese ogni anno una classe mi chiama \"professore\". La cosa che mi rende più felice è quando il mio lavoro rende il lavoro degli altri più semplice ed efficace.\r\n\r\nBrowncoat, Umbrella academic, He/Him.",
+
+            "tagLine": "Passionate developer",
+
+            "profilePicture": "https://sessionize.com/image/b176-400o400o1-h6w52dmqhKtMJ1bhYW5Zx2.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                860335
+
+            ],
+
+            "fullName": "Michele Mauro",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "7630ae3a-6990-4342-8008-8a8a47007a27",
+
+            "firstName": "Riccardo",
+
+            "lastName": "Solazzi",
+
+            "bio": "Hello there! My name is Riccardo (aka TheZal), a passionate software engineer who loves to combine his passion for code with his love for fantasy realms like Dungeons and Dragons, Harry Potter, Star Wars, LOTR, etc., etc. I'm really into studying and exploring new technologies (with a lot of love for Open Source) and in my free time I like to write about it! I was the pen behind the OpenDev Explorer serie on Codemotion Magazine! I also own a blog called thezal.dev where I write... everything I want about tech!",
+
+            "tagLine": "Software engineer @ Revolt Srl",
+
+            "profilePicture": "https://sessionize.com/image/be28-400o400o1-7v7WT1BC9AqHBGY9DAo8cF.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                872019
+
+            ],
+
+            "fullName": "Riccardo Solazzi",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "09c0d812-a3fa-4518-a1ff-14c1ef6241b5",
+
+            "firstName": "Simone",
+
+            "lastName": "D'Amico",
+
+            "bio": "Technical Team Leader @ Redokun with almost 15 years of experience in large-scale software development. Dedicated advocate of agile methodologies, Lean Principles, and DevOps culture. Author of Lead Through Mistakes (leadthroughmistakes.com), a newsletter focused on Leadership in the IT sector.",
+
+            "tagLine": "Technical Team Leader @ Redokun",
+
+            "profilePicture": "https://sessionize.com/image/67f8-400o400o1-wZRVPifXTQATR2b6D3nTo2.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                856978
+
+            ],
+
+            "fullName": "Simone D'Amico",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "53680401-e0b7-4b9c-b252-685192ad8ec7",
+
+            "firstName": "Simone",
+
+            "lastName": "Torrisi",
+
+            "bio": "Developer since 2000, I'm currently focused on transfer my knowledge and experience to the next generation of Developers",
+
+            "tagLine": "Founder & Mentor @ TomorrowDevs",
+
+            "profilePicture": "https://sessionize.com/image/13cd-400o400o1-TzHbzR7AwGZE555Tm4z2Jf.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                850647
+
+            ],
+
+            "fullName": "Simone Torrisi",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
+        },
+
+        {
+
+            "id": "bc261ce0-3d86-40a4-9c62-764d0115dc92",
+
+            "firstName": "Valeria",
+
+            "lastName": "Salis",
+
+            "bio": "Software Developer dal background ibrido e decisamente troppi interessi. Appassionata di tecnologia da sempre fin da quando, da bambina, alternavo il pallone al pc giocattolo. All'università ho frequentato la facoltà di Informatica Musicale e ho scoperto lo sviluppo web, di cui mi sono innamorata. Una particolare sensibilità mi ha portato ad appassionarmi all'impatto ambientale del mondo tech e all'accessibilità digitale.",
+
+            "tagLine": "Full stack developer @ Jointly, WG Sustainability Advocacy Tech Lead & Green Software Champion",
+
+            "profilePicture": "https://sessionize.com/image/61b3-400o400o1-4sqDQsr3XuLH7myPUwRMN3.jpg",
+
+            "isTopSpeaker": false,
+
+            "links": [],
+
+            "sessions": [
+
+                872780
+
+            ],
+
+            "fullName": "Valeria Salis",
+
+            "categoryItems": [],
+
+            "questionAnswers": []
+
         }
+
     ],
+
     "questions": [],
-    "categories": [
-        {
-            "id": 81731,
-            "title": "Session format",
-            "items": [
-                {
-                    "id": 290677,
-                    "name": "Lightning talk",
-                    "sort": 1
-                },
-                {
-                    "id": 290678,
-                    "name": "Session",
-                    "sort": 2
-                },
-                {
-                    "id": 290679,
-                    "name": "Workshop",
-                    "sort": 3
-                }
-            ],
-            "sort": 0,
-            "type": "session"
-        },
-        {
-            "id": 81732,
-            "title": "Track",
-            "items": [
-                {
-                    "id": 290680,
-                    "name": "Front-end",
-                    "sort": 1
-                },
-                {
-                    "id": 290681,
-                    "name": "Cloud Computing",
-                    "sort": 2
-                },
-                {
-                    "id": 290682,
-                    "name": "DevOps",
-                    "sort": 3
-                }
-            ],
-            "sort": 1,
-            "type": "session"
-        },
-        {
-            "id": 81733,
-            "title": "Level",
-            "items": [
-                {
-                    "id": 290683,
-                    "name": "Introductory and overview",
-                    "sort": 1
-                },
-                {
-                    "id": 290684,
-                    "name": "Intermediate",
-                    "sort": 2
-                },
-                {
-                    "id": 290685,
-                    "name": "Advanced",
-                    "sort": 3
-                },
-                {
-                    "id": 290686,
-                    "name": "Expert",
-                    "sort": 4
-                }
-            ],
-            "sort": 2,
-            "type": "session"
-        },
-        {
-            "id": 81734,
-            "title": "Language",
-            "items": [
-                {
-                    "id": 290687,
-                    "name": "English",
-                    "sort": 1
-                },
-                {
-                    "id": 290688,
-                    "name": "Spanish",
-                    "sort": 2
-                },
-                {
-                    "id": 290689,
-                    "name": "German",
-                    "sort": 3
-                },
-                {
-                    "id": 290690,
-                    "name": "Italian",
-                    "sort": 4
-                },
-                {
-                    "id": 290691,
-                    "name": "French",
-                    "sort": 5
-                },
-                {
-                    "id": 290692,
-                    "name": "Chinese",
-                    "sort": 6
-                },
-                {
-                    "id": 290693,
-                    "name": "Arabic",
-                    "sort": 7
-                },
-                {
-                    "id": 290694,
-                    "name": "Portuguese",
-                    "sort": 8
-                }
-            ],
-            "sort": 3,
-            "type": "session"
-        }
-    ],
-    "rooms": [
-        {
-            "id": 52655,
-            "name": "Room 1",
-            "sort": 0
-        },
-        {
-            "id": 52656,
-            "name": "Room 2",
-            "sort": 1
-        }
-    ]
+
+    "categories": [],
+
+    "rooms": []
+
 }

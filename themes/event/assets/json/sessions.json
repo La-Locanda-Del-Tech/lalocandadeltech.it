@@ -1,0 +1,303 @@
+{
+  "sessions": [
+    {
+      "id": "872780",
+      "title": "Impatto Digitale: Riflessioni sull'Utilizzo Responsabile delle Innovazioni Tecnologiche",
+      "description": "Proviamo ad immaginare una realtà in cui per effettuare una qualsiasi operazione digitale dovessimo pagare il nostro impatto ambientale. Effettueremmo lo stesso numero di operazioni oppure ci rifletteremmo qualche secondo in più? La tecnologia ci affascina, ci assorbe e ci fa pensare che qualsiasi attività svolgiamo su Internet sia in parte astratta; inviare o ricevere un’email, guardare un video su Youtube o una serie tv su un sito di streaming qualsiasi, caricare una nostra foto sui social, scrivere un post su LinkedIn, sono tutte operazioni con un impatto ambientale. \r\nL’esplosione dell’Intelligenza artificiale, dei LLM e dei tool come ChatGPT & Co. ha dato più immediato accesso ad operazioni il cui impatto ambientale è ancora più importante. Tuttavia, la tecnologia, l’IA, non sono IL problema. La loro facile reperibilità e l’irresponsabile utilizzo di certi strumenti e risorse come fossero semplici giocattoli lo è. In questo talk partiremo da qualche dato relativo all’impatto ambientale degli strumenti sopracitati e proveremo a capire in che misura un utilizzo più consapevole delle innovazioni che ci circondano possa invece aiutarci a raggiungere un risultato migliore, per il nostro pianeta e per noi. ",
+      "startsAt": "2025-03-17T10:00:00",
+      "endsAt": "2025-03-17T10:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "bc261ce0-3d86-40a4-9c62-764d0115dc92"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 60000,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "872265",
+      "title": "Il Manifesto del Lean Web",
+      "description": "Nel mondo dello sviluppo web moderno, la complessità è diventata la norma: framework pesanti, dipendenze infinite e codice sovraccarico sembrano imprescindibili. Ma è davvero così?\r\n\r\nIl talk si esplora il concetto di Lean Web, un approccio che punta a ridurre gli sprechi, ottimizzare le risorse e creare applicazioni più leggere, veloci e sostenibili. Scopriremo come eliminare il superfluo, migliorare le performance e garantire un'esperienza utente accessibile a tutti.\r\n\r\nAttraverso esempi concreti e casi studio di aziende come GitHub, Netflix e Airbnb, vedremo come il ritorno a tecniche più semplici e native possa portare a risultati sorprendenti. Analizzeremo il \"costo nascosto\" del JavaScript e il mito del Virtual DOM, e discuteremo di come l'accessibilità e la sostenibilità siano pilastri fondamentali di questo approccio.\r\n\r\nSe pensate che \"più sia meglio\", preparatevi a cambiare idea: il futuro del web è Lean.",
+      "startsAt": "2025-03-17T10:45:00",
+      "endsAt": "2025-03-17T11:30:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "05ed4b4a-5d57-4602-bb4e-8d55efad3e0f"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 60000,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "857803",
+      "title": "Da Junior a Leader: Il Potere di Dire Si (e l'Importanza di Dire No)",
+      "description": "All’inizio della carriera, il segreto della crescita è dire tanti \"sì\": accettare nuove sfide, uscire dalla comfort zone, imparare il più possibile. Ma più si avanza, più diventa cruciale il potere del \"no\": dire no alle distrazioni, no alle richieste che non hanno impatto, no a essere solo esecutori.\r\n\r\nIn questo talk esploreremo il viaggio da Junior a Engineering Manager, analizzando:\r\n✅ Quando dire sì per crescere e farsi notare nei primi anni di carriera.\r\n✅ Come portare valore come Senior Engineer senza solo \"scrivere codice meglio\".\r\n✅ Il passaggio a Tech Lead e Manager: quando dire no diventa più importante che dire sì.\r\n✅ Errori comuni da evitare a ogni livello e strategie per avere impatto reale.\r\n\r\nChe tu sia un Junior che vuole accelerare la carriera, un Senior che cerca di aumentare la propria influenza o un Tech Lead che vuole gestire meglio priorità e aspettative, questo talk ti darà una guida chiara su come essere sempre al top e portare valore in ogni fase della tua crescita.\r\n\r\n🎯 Target audience:\r\n\r\nJunior & Mid Engineers che vogliono farsi notare e crescere più velocemente.\r\nSenior Engineers & Tech Leads che vogliono migliorare l’impatto e prepararsi alla leadership.\r\nEngineering Managers che vogliono aiutare il proprio team a crescere.",
+      "startsAt": "2025-03-17T11:45:00",
+      "endsAt": "2025-03-17T12:30:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "1e5320cf-0582-4010-b876-06c1e864233a"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 60000,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "856977",
+      "title": "Sits e Fits: Pragmatismo nell'architettura software.",
+      "description": "Nel mondo dello sviluppo software, i concetti di regole, principi e best practice costituiscono la spina dorsale del nostro lavoro. Questi rappresentano gli elementi fondamentali - ciò che si stabilisce (sits) - che guidano le decisioni, standardizzano i processi e garantiscono la scalabilità di sistemi complessi. Funzionano come ancore, offrendo stabilità e una comprensione condivisa tra team e progetti.\r\n\r\nEppure, nessuna regola o pratica esiste in un vuoto. Ci sono momenti in cui il percorso stabilito non è il percorso migliore. Il contesto cambia, le priorità si modificano e a volte la soluzione sta nell’uscire dai confini. Questi sono i momenti in cui gli adattamenti specifici al contesto - fits - diventano necessari per risolvere sfide uniche. La tensione tra sits e fits è il cuore di un’architettura software pragmatica.",
+      "startsAt": "2025-03-17T12:30:00",
+      "endsAt": "2025-03-17T13:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f1391d8e-915c-469a-bdc8-90b26ee09df0"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 60000,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "869662",
+      "title": "InforMagica - Grimorio per Maghi Moderni",
+      "description": "Pensa a quanto è figo programmare. Ti siedi davanti a una tastiera e crei qualcosa che fino a pochi minuti fa non esisteva. Un’idea, un concetto, un insieme di istruzioni che prendono vita in un computer e fanno cose che prima erano impossibili.  \r\n\r\nE allora perché la maggior parte dei programmatori sembrano annoiati, stressati, stanchi del loro lavoro? Quando è successo che la magia si è trasformata in routine?  \r\n\r\nGandalf si è mai stancato di volare sulle ali delle aquile?  \r\nHarry Potter si è mai annoiato di evocare un maestoso Cervo dalla sua bacchetta?  \r\n\r\nQuesto talk vuole proporre un modo diverso di vedere la programmazione, un framework mentale per riscoprire la gioia dell’atto creativo. Partendo da una riflessione sulla linguistica e sul potere delle parole, arriveremo a tracciare parallelismi (chiari, ma forse non così evidenti) tra magia e programmazione.  \r\n\r\nL’obiettivo? Capire perché abbiamo scelto di fare questo lavoro e, magari, riscoprire un po’ di quel senso di meraviglia che ci ha portati fin qui.",
+      "startsAt": "2025-03-17T14:30:00",
+      "endsAt": "2025-03-17T15:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ea89b80b-e4d0-4026-a427-f2c50ac279ff"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 60000,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "872189",
+      "title": "Developer che odiano il personal branding",
+      "description": "I toscani stanno a questo Paese come il marketing sta a Internet. \r\nQuesto è almeno quello che pensa chi ha sognato il cyberspazio come un nuova frontiera sociale.\r\nÈ possibile parlare di personal branding a chi ha questi pregiudizi?\r\nNo. Infatti questo talk parla a chi, nonostante i propri pregiudizi, vuole scoprire qualcosa di utile per promuovere il proprio lavoro durante eventi e conferenze.\r\nChe sia per cercare nuove opportunità di lavoro o per cercare clienti per il proprio progetto tech, qualche nozione base di personal branding per raggiungere il proprio obiettivo.\r\n",
+      "startsAt": "2025-03-17T15:15:00",
+      "endsAt": "2025-03-17T16:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "54df91bd-7e2e-4188-bc5f-0e9f47679738"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 60000,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "872641",
+      "title": "Accendere la Passione: Rivitalizzare la Motivazione nei Team Tech",
+      "description": "Nel panorama in continua evoluzione dell'industria tech, il concetto di motivazione del team è passato dall'essere una questione marginale a un elemento centrale del successo organizzativo. Questo talk adotta questa visione contemporanea, combinando approfondimenti dalla psicologia motivazionale con pratiche di gestione innovative. Questo approccio garantisce che la motivazione e lo spirito di squadra siano parte integrante del percorso di un team tech, sin dall'inizio e attraverso tutte le fasi di sviluppo del progetto e del team.",
+      "startsAt": "2025-03-17T16:15:00",
+      "endsAt": "2025-03-17T17:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "14c6ae82-121f-457e-a04a-f6aefb52b078"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 60000,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "856978",
+      "title": "Dal codice alla leadership: insidie e sfide nel passaggio da Individual Contributor a Tech Lead",
+      "description": "Il passaggio da Individual Contributor a Tech Lead è un viaggio trasformativo, ricco di sfide e crescita. In questo intervento condividerò la mia evoluzione personale, insieme agli ostacoli superati, agli errori commessi e alle lezioni apprese. Scoprirai perché essere un ottimo Software Engineer non significa automaticamente essere un grande leader e imparerai quali sono le competenze necessarie per colmare questo divario e guidare con successo un team. ",
+      "startsAt": "2025-03-17T17:00:00",
+      "endsAt": "2025-03-17T17:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "09c0d812-a3fa-4518-a1ff-14c1ef6241b5"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 60000,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    }
+  ],
+  "speakers": [
+    {
+      "id": "1e5320cf-0582-4010-b876-06c1e864233a",
+      "firstName": "Adriano",
+      "lastName": "Sanges",
+      "bio": "Data leader previously at Walmart, Workday and Bank of America, with 12 years of experience in the business and a knack for building data platforms",
+      "tagLine": "Engineering Manager, Data and Analytics at Didomi",
+      "profilePicture": "https://sessionize.com/image/4194-400o400o1-N5RrjUZc9giuxRvpQux7rV.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        857803
+      ],
+      "fullName": "Adriano Sanges",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "05ed4b4a-5d57-4602-bb4e-8d55efad3e0f",
+      "firstName": "Emiliano",
+      "lastName": "Pisu",
+      "bio": "Hi 👋 Folks!\r\nI'm Emiliano Pisu, Frontend Developer, Mentor, Speaker.\r\n\r\nYour friendly neighborhood UI/UX Engineer.\r\n\r\nFollowing my coding addiction during my career, I always kept updated concerning software development and related trends, focusing on: UI, UX, Accessibility, Responsiveness, Compatibility, Scalability, Maintainability.\r\n\r\nMy primary goal is to build accessible pixel perfect UIs and stunning UXs.\r\n\r\nMy basic approach is to develop with 0-dependencies: this boosts creativity, studying, experimenting, knowledge; resulting in trends following solutions which are carefully tailored on client/stakeholders needs.\r\n\r\nIn conclusion I'm your man if you need a bridge between Design and Development.\r\nI breath to simplify the DevX of my colleagues: that's why I talk about the core web vanilla technologies.",
+      "tagLine": "Frontend Developer, Mentor, Speaker.",
+      "profilePicture": "https://sessionize.com/image/d1e7-400o400o1-7KMYUaNPjYLwyCyFaWBFCv.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        872265
+      ],
+      "fullName": "Emiliano Pisu",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "54df91bd-7e2e-4188-bc5f-0e9f47679738",
+      "firstName": "Lara",
+      "lastName": "Lombardi",
+      "bio": "Mi occupo di marketing e comunicazione per Apropos, azienda che organizza conferenze tech e corsi di formazione sui temi principali dello sviluppo web.\r\nSono responsabile della comunicazione di GrSUP, la community tech che  riunisce  7000 persone tra deveoper, designer e DevOps.\r\nOrganizzo corsi di formazione all'uso delle tecnologie digitali e al bilanciamento della presenza online.\r\n",
+      "tagLine": "Marketing & Communication Manager @ Apropos",
+      "profilePicture": "https://sessionize.com/image/6615-400o400o1-DuPomJWfqKQcACAk11XQEE.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        872189
+      ],
+      "fullName": "Lara Lombardi",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "ea89b80b-e4d0-4026-a427-f2c50ac279ff",
+      "firstName": "Luca",
+      "lastName": "Tomasino",
+      "bio": "Ha scoperto i computer a 8 anni, giocando a Dionakra su Windows Millennium.  \r\nAppassionato di tecnologia da sempre, a 20 anni ha cercato qualcosa di diverso, scappando quasi letteralmente per unirsi al circo.  \r\n\r\nIl COVID lo ha riportato davanti a uno schermo, dove ha imparato C# per creare un gioco in Unity: così è nato Voidlingz, il suo progetto di debutto. Ha venduto 7 copie(nonostante fosse gratis) tra amici e parenti, prima di svanire nel nulla, inghiottito dal Play Store.  \r\n\r\nMa la passione non si è spenta. Ha continuato a studiare fino a diventare sviluppatore nell’ecosistema SAP (piangete per me).  \r\n\r\nSempre in movimento, con la testa tra le nuvole ma i piedi ben piantati a terra, sta ancora cercando il suo posto nel mondo tech.  \r\nDopo aver partecipato alle sue prime conferenze, si è innamorato dell’idea di parlare a un pubblico e condividere la sua visione… ed eccoci qui.",
+      "tagLine": "Fullstack Developer",
+      "profilePicture": "https://sessionize.com/image/09e1-400o400o1-SkDvce3ALPTwF4iryr64ck.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        869662
+      ],
+      "fullName": "Luca Tomasino",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "14c6ae82-121f-457e-a04a-f6aefb52b078",
+      "firstName": "Ludovico",
+      "lastName": "Besana",
+      "bio": "Ludovico, born as a Full Stack Developer, discovered his true passion for quality later in his career. With a background in Full Stack Development, he possessed a strong technical foundation and a deep understanding of software systems.\r\nAs an Automation and Open Source enthusiast, Ludovico recognized the power of efficient and reliable testing methodologies. He understood the importance of ensuring that software products met the highest standards of performance, functionality, and user experience. He works as a Senior Test Engineer.",
+      "tagLine": "Senior Test Engineer @Nearform ",
+      "profilePicture": "https://sessionize.com/image/6fcf-400o400o1-aDkpJzhmQV6KVRa2E5FwEo.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        872641
+      ],
+      "fullName": "Ludovico Besana",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f1391d8e-915c-469a-bdc8-90b26ee09df0",
+      "firstName": "Michael",
+      "lastName": "Di Prisco",
+      "bio": "A decade in the Development field, still trying to get my head around it. Full-Stack Developer with a strong experience in Back-End Development and passionate about all things JS.",
+      "tagLine": "Tech Lead @ Jointly",
+      "profilePicture": "https://sessionize.com/image/57cc-400o400o1-XewKK5vF9Uug2fMRajH2oN.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        856977
+      ],
+      "fullName": "Michael Di Prisco",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "09c0d812-a3fa-4518-a1ff-14c1ef6241b5",
+      "firstName": "Simone",
+      "lastName": "D'Amico",
+      "bio": "Technical Team Leader @ Redokun with almost 15 years of experience in large-scale software development. Dedicated advocate of agile methodologies, Lean Principles, and DevOps culture. Author of Lead Through Mistakes (leadthroughmistakes.com), a newsletter focused on Leadership in the IT sector.",
+      "tagLine": "Technical Team Leader @ Redokun",
+      "profilePicture": "https://sessionize.com/image/67f8-400o400o1-wZRVPifXTQATR2b6D3nTo2.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        856978
+      ],
+      "fullName": "Simone D'Amico",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "bc261ce0-3d86-40a4-9c62-764d0115dc92",
+      "firstName": "Valeria",
+      "lastName": "Salis",
+      "bio": "Software Developer dal background ibrido e decisamente troppi interessi. Appassionata di tecnologia da sempre fin da quando, da bambina, alternavo il pallone al pc giocattolo. All'università ho frequentato la facoltà di Informatica Musicale e ho scoperto lo sviluppo web, di cui mi sono innamorata. Una particolare sensibilità mi ha portato ad appassionarmi all'impatto ambientale del mondo tech e all'accessibilità digitale.",
+      "tagLine": "Full stack developer @ Jointly, WG Sustainability Advocacy Tech Lead & Green Software Champion",
+      "profilePicture": "https://sessionize.com/image/61b3-400o400o1-4sqDQsr3XuLH7myPUwRMN3.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        872780
+      ],
+      "fullName": "Valeria Salis",
+      "categoryItems": [],
+      "questionAnswers": []
+    }
+  ],
+  "questions": [],
+  "categories": [],
+  "rooms": [
+    {
+      "id": 60000,
+      "name": "Online",
+      "sort": 0
+    }
+  ]
+}

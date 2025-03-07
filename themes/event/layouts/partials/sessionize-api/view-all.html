@@ -9,11 +9,8 @@
         {{ errorf "Unable to get test data resource %q." $path }}
     {{ end }}
 {{ else }}
-    {{ $url := printf "https://sessionize.com/api/v2/%s/view/all" $input.sessionizeId }}
-    {{ with resources.GetRemote $url }}
+    {{ with resources.Get "json/sessions.json" }}
         {{ $data = . | transform.Unmarshal }}
-    {{ else }}
-        {{ errorf "Unable to get remote resource %s" $url }}
     {{ end }}
 {{ end }}
 

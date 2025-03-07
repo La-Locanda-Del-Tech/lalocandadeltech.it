@@ -10,15 +10,11 @@
             {{ T "conference_tracks_section.subheading" }}
         </h2>
         <ol class="conference-tracks-section__list">
+            {{- range $input.tracks }}
             <li class="conference-tracks-section__list-item">
-                #DEVOPS
+                #{{ . | upper }}
             </li>
-            <li class="conference-tracks-section__list-item">
-                #CLOUD COMPUTING
-            </li>
-            <li class="conference-tracks-section__list-item">
-                #AI
-            </li>
+            {{- end }}
         </ol>
 
         {{- with $input.sessionsUrl }}

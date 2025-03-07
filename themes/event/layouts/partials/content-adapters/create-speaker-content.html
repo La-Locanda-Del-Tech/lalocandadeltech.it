@@ -34,7 +34,7 @@
     {{/* Store the speaker's profile picture. */}}
     {{ $item := . }}
     {{ with $url := $item.profilePicture }}
-        {{ with resources.GetRemote $url  | images.Filter (images.Process "q90 webp") }}
+        {{ with resources.GetRemote $url  | images.Filter (images.Process "q100 webp") }}
             {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
             {{ $params := dict "alt" $item.fullName }}
             {{ $resource := dict
