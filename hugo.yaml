@@ -100,6 +100,9 @@ params:
                 - logo: partners/fullremote.webp
                   url: https://fullremote.it/
                   name: fullremote.it
+                - logo: partners/GrUSP_quadrato.webp
+                  url: https://www.grusp.org/
+                  name: GrUSP
             # 👇 List of Sessionize speaker IDs of speakers that organize the event.
             organizers: LaLocandaDelTech
             # 👇 List of Sessionize session IDs of highlight sessions.
