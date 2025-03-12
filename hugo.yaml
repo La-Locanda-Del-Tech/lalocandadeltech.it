@@ -72,7 +72,7 @@ params:
                     eventId:
                 other:
                     # 👇 Enter the URL of your ticket shop here.
-                    url:
+                    url: https://www.linkedin.com/events/locandatechtales7304867763800477698/comments/
                 enableBanner: true
             socialLinks:
                 xUrl:
